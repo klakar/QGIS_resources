@@ -1,0 +1,12 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols/>
+  <colorramps>
+    <colorramp type="gradient" name="Krishantering Risk (Liten-Hög)">
+      <prop k="color1" v="255,221,0,255"/>
+      <prop k="color2" v="238,23,70,255"/>
+      <prop k="discrete" v="0"/>
+      <prop k="stops" v="1;238,23,70,255"/>
+    </colorramp>
+  </colorramps>
+</qgis_style>
