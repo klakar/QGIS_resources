@@ -22,6 +22,7 @@ if not lager.isEditable():
 lager.dataProvider().addAttributes([QgsField("Text_X", QVariant.Double, 'double', 10, 5),
 QgsField("Text_Y", QVariant.Double, 'double', 10, 5), QgsField("Text_Ri", QVariant.Double, 'double', 3, 2), QgsField("Text_Vis", QVariant.Int, "", 3)])
 lager.updateFields()
+lager.commitChanges()
 lager.setDefaultValueExpression(lager.fieldNameIndex("Text_Vis"), '1')
 palager = QgsPalLayerSettings()
 palager.readFromLayer(lager)
