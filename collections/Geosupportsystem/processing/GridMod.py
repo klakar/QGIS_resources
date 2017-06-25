@@ -82,5 +82,4 @@ def indexNumber(gridNumber, feature, parent):
 		if charNumber >= 6:
 			fullString += supScr[int(char)]
 		charNumber -= 1
-	
-return fullString
+	return fullString
