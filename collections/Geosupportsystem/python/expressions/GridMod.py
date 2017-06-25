@@ -58,3 +58,28 @@ def longNumber(gridNumber, feature, parent):
 		charNumber -= 1
 	
 	return fullString
+
+@qgsfunction(args='auto', group='Custom')
+def indexNumber(gridNumber, feature, parent):
+	"""
+	Converts coordinates to "kilometer grid index" with superscript characters to create a label with 100 km "index" number.
+	<h3>Example:</h3>
+	<code>indexNumber(123456) -> '<sup>1</sup>23'</code>
+	<h3>Tips</h3>
+	Try:
+	<code>indexNumber( @grid_number )</code>
+	<h3>Unicode Font</h3>
+	You need to select a font that supports unicode for this to work.
+	"""
+	gridString = str(int(gridNumber))
+	fullString = ''
+	supScr = (u'\u2070',u'\u00B9',u'\u00B2',u'\u00B3',u'\u2074',u'\u2075',u'\u2076',u'\u2077',u'\u2078',u'\u2079')
+	charNumber = len(gridString)
+	for char in gridString:
+		if charNumber == 5 or charNumber == 4:
+			fullString += char
+		if charNumber >= 6:
+			fullString += supScr[int(char)]
+		charNumber -= 1
+	
+	return fullString
