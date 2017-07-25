@@ -6,7 +6,6 @@
 
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-progress.setText("Starting")
 
 import sys, getopt, math
 from subprocess import call
@@ -120,9 +119,7 @@ outputfile = Output_SVG_file
 gridnorth = Grid_Reference
 magnorth = Magnetic_Declination
 truenorth = True_North_Reference
-progress.setText(outputfile)
+
 svgfile = open(outputfile, "w")
 svgfile.write(generatesvg(gridnorth, magnorth, truenorth))
 svgfile.close()
-progress.setText("Done")
-
