@@ -3,6 +3,10 @@
 Functions to help in creating advanced layouts.
 Adapted for QGIS 3
 
+'ref' functions based on work by Alexandre Neto (GPL)
+
+Licence: GPLv3
+
 """
 
 from qgis.core import *
