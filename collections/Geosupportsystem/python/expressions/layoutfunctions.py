@@ -5,6 +5,7 @@ Adapted for QGIS 3
 
 'ref' functions based on work by Alexandre Neto (GPL)
 
+Created By @klaskarlsson Klas Karlsson
 Licence: GPLv3
 
 """
