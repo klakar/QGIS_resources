@@ -3,96 +3,11 @@
 Functions to help in creating advanced layouts.
 Adapted for QGIS 3
 
-'ref' functions based on work by Alexandre Neto (GPL)
-
-Created By @klaskarlsson Klas Karlsson
-Licence: GPLv3
-
 """
 
 from qgis.core import *
 from qgis.gui import *
 
-@qgsfunction(args='auto', group='Advanced Layout')
-def ref_x_min(layout_title, feature, parent):
-	"""
-	Calculate the minimum and maximum coordinat of the reference map extents
-	in the named layout.
-	<h2>Example usage:</h2>
-	<ul>
-		<li>ref_x_min('my layout') -> 495395.1285</li>
-		<li>ref_y_max('my layout') -> 6392411.4585</li>
-	</ul>
-	<h2>
-	To create a "corner label" try the folowing code:
-	</h2><br>
-	<code>
-	'E ' || to_int(ref_x_min('layout_name')) || '\\nN ' || to_int(ref_y_min('layout_name'))
-	</code>
-	"""
-	calc_x_min = QgsProject.instance().layoutManager().layoutByName(layout_title).referenceMap().extent().xMinimum()
-	return calc_x_min
-
-@qgsfunction(args='auto', group='Advanced Layout')
-def ref_x_max(layout_title, feature, parent):
-	"""
-	Calculate the minimum and maximum coordinat of the reference map extents
-	in the named layout.
-	<h2>Example usage:</h2>
-	<ul>
-		<li>ref_x_min('my layout') -> 495395.1285</li>
-		<li>ref_y_max('my layout') -> 6392411.4585</li>
-	</ul>
-	<h2>
-	To create a "corner label" try the folowing code:
-	</h2><br>
-	<code>
-	'E ' || to_int(ref_x_min('layout_name')) || '\\nN ' || to_int(ref_y_min('layout_name'))
-	</code>
-	"""
-	calc_x_max = QgsProject.instance().layoutManager().layoutByName(layout_title).referenceMap().extent().xMaximum()
-	return calc_x_max
-
-@qgsfunction(args='auto', group='Advanced Layout')
-def ref_y_min(layout_title, feature, parent):
-	"""
-	Calculate the minimum and maximum coordinat of the reference map extents
-	in the named layout.
-	<h2>Example usage:</h2>
-	<ul>
-		<li>ref_x_min('my layout') -> 495395.1285</li>
-		<li>ref_y_max('my layout') -> 6392411.4585</li>
-	</ul>
-	<h2>
-	To create a "corner label" try the folowing code:
-	</h2><br>
-	<code>
-	'E ' || to_int(ref_x_min('layout_name')) || '\\nN ' || to_int(ref_y_min('layout_name'))
-	</code>
-	"""
-	calc_y_min = QgsProject.instance().layoutManager().layoutByName(layout_title).referenceMap().extent().yMinimum()
-	return calc_y_min
-
-@qgsfunction(args='auto', group='Advanced Layout')
-def ref_y_max(layout_title, feature, parent):
-	"""
-	Calculate the minimum and maximum coordinat of the reference map extents
-	in the named layout.
-	<h2>Example usage:</h2>
-	<ul>
-		<li>ref_x_min('my layout') -> 495395.1285</li>
-		<li>ref_y_max('my layout') -> 6392411.4585</li>
-	</ul>
-	<h2>
-	To create a "corner label" try the folowing code:
-	</h2><br>
-	<code>
-	'E ' || to_int(ref_x_min('layout_name')) || '\\nN ' || to_int(ref_y_min('layout_name'))
-	</code>
-	"""
-	calc_y_max = QgsProject.instance().layoutManager().layoutByName(layout_title).referenceMap().extent().yMaximum()
-	return calc_y_max
-	
 """
 Functions to be used with grid coordinates (mostly)
 """
@@ -167,19 +82,18 @@ Functions for MGRS lettering based on UTM easting/northing coordinates.
 
 from qgis.utils import iface 
 @qgsfunction(args='auto', group='Advanced Layout') 
-def mgrs_bigram(easting, northing, layout_title, feature, parent):
+def mgrs_bigram(easting, northing, utm_z, feature, parent):
 	"""
 	Find MGRS bigram letters for 100 km square from E and N coordinate.<br>
-	Based on map UTM projection in WGS-84. (EPSG:32601 - EPSG:32960).<br>
+	Based on map UTM projection in WGS-84.<br>
 	<br><i>Only adapted to Northern Hemisphere</i>
 	<h2>Example:</h2><br>
 	<code>
-	mgrs_bigram( 495395, 6392411, 'layout_title') -> 'VD'
+	mgrs_bigram( 495395, 6392411, 33) -> 'VD'<br>
+	<h2>Bigram for center of map with Item ID 'map'</h2><br>
+	mgrs_bigram(x(map_get(item_variables('map'),'map_extent_center')),y(map_get(item_variables('map'),'map_extent_center')),to_int(right(map_get(item_variables('map'),'map_crs'),2)))
 	</code>
 	"""
-	reference_map = QgsProject.instance().layoutManager().layoutByName(layout_title).referenceMap()
-	epsg_code = reference_map.crs().authid() 
-	utm_z = int(epsg_code[-2:]) 
 	mgrs_col = utm_z%3 
 	col_type_list = [['S','T','U','V','W','X','Y','Z'],['A','B','C','D','E','F','G','H'],['K','L','M','N','P','Q','R']] 
 	col_100k = int(easting/100000)-1 
@@ -194,19 +108,18 @@ def mgrs_bigram(easting, northing, layout_title, feature, parent):
 	return bigram
 
 @qgsfunction(args='auto', group='Advanced Layout') 
-def mgrs_gzd(easting, northing, layout_title, feature, parent): 
+def mgrs_gzd(easting, northing, utm_z, feature, parent): 
 	"""
 	Find MGRS Grid Zone Designator from E and N coordinate.<br>
-	Based on map UTM projection in WGS-84. (EPSG:32601 - EPSG:32960).<br>
+	Based on map UTM projection in WGS-84.<br>
 	<br><i>Only adapted to Northern Hemisphere</i>
 	<h2>Example:</h2><br>
 	<code>
-	mgrs_bigram( 495395, 6392411, 'layout_title') -> 'VD'
+	mgrs_gzd( 495395, 6392411, 33) -> '33V'<br><br>
+	<h2>GZD for center of map with Item ID 'map'</h2><br>
+	mgrs_gzd(x(map_get(item_variables('map'),'map_extent_center')),y(map_get(item_variables('map'),'map_extent_center')),to_int(right(map_get(item_variables('map'),'map_crs'),2)))
 	</code>
 	"""
-	reference_map = QgsProject.instance().layoutManager().layoutByName(layout_title).referenceMap()
-	epsg_code = reference_map.crs().authid() 
-	utm_z = int(epsg_code[-2:]) 
 	gzd_list = ['C','D','E','F','G','H','J','K','L','M','N','P','Q','R','S','T','U','V','W','X'] 
 	gzd_nr = (int(northing/888960) + 10)%20 
 	gzd = str(utm_z) + gzd_list[gzd_nr] 
