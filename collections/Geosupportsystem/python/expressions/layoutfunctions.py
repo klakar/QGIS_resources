@@ -3,6 +3,10 @@
 Functions to help in creating advanced layouts.
 Adapted for QGIS 3
 
+map_x_min() functions removed since they can be replaced in QGIS 3 with:
+x_min(map_get(item_variables('map_item_id'),'map_extent'))
+
+'map_item_id' refers to name given to map frame.
 """
 
 from qgis.core import *
