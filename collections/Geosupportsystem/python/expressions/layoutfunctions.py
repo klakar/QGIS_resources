@@ -128,3 +128,24 @@ def mgrs_gzd(easting, northing, utm_z, feature, parent):
 	gzd_nr = (int(northing/888960) + 10)%20 
 	gzd = str(utm_z) + gzd_list[gzd_nr] 
 	return gzd
+
+@qgsfunction(args='auto', group='Advanced Layout') 
+def mgrs(easting, northing, epsg, feature, parent): 
+	"""
+	<i>Requires mgrspy from Boundless<br>
+	pip install mgrspy</i><br><br>
+	Find MGRS from X and Y coordinate in EPSG.<br>
+	<br>
+	<h2>Example:</h2><br>
+	<code>
+	mgrs( 495395, 6392411, 32633) -> '33VVD94574973545'<br><br>
+	mgrs( 15.048564, 57.405484, 4326) -> '33VWD1453591543'<br><br>
+	</code>
+	"""
+	crsSrc = QgsCoordinateReferenceSystem(epsg)
+	crsDst = QgsCoordinateReferenceSystem(4326)
+	xform = QgsCoordinateTransform(crsSrc, crsDst)
+	pt = xform.transform(QgsPoint(easting,northing))
+	from mgrspy import mgrs
+	mgrs_out = mgrs.toMgrs(pt[1],pt[0],5) # Latitude first...
+	return mgrs_out
