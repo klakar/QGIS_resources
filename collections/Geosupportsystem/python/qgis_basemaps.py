@@ -42,6 +42,14 @@ sources.append(["connections-xyz","Esri Topo World", "", "", "", "http://service
 sources.append(["connections-xyz","Open Street Map Standard", "", "", "OpenStreetMap contributors, CC-BY-SA ", "http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
 sources.append(["connections-xyz","Open Street Map H.O.T.", "", "", "OpenStreetMap contributors, CC-BY-SA ", "http://a.tile.openstreetmap.fr/hot/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
 sources.append(["connections-xyz","Open Street Map Monochrome", "", "", "OpenStreetMap contributors, CC-BY-SA ", "http://a.tiles.wmflabs.org/bw-mapnik/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
+sources.append(["connections-xyz","Strava All", "", "", "OpenStreetMap contributors, CC-BY-SA ", "https://heatmap-external-b.strava.com/tiles/all/bluered/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "15", "0"])
+sources.append(["connections-xyz","Strava Run", "", "", "OpenStreetMap contributors, CC-BY-SA ", "https://heatmap-external-b.strava.com/tiles/run/bluered/%7Bz%7D/%7Bx%7D/%7By%7D.png?v=19", "", "15", "0"])
+sources.append(["connections-xyz","Open Weather Map Temperature", "", "", "Map tiles by OpenWeatherMap, under CC BY-SA 4.0", "http://tile.openweathermap.org/map/temp_new/%7Bz%7D/%7Bx%7D/%7By%7D.png?APPID=1c3e4ef8e25596946ee1f3846b53218a", "", "19", "0"])
+sources.append(["connections-xyz","Open Weather Map Clouds", "", "", "Map tiles by OpenWeatherMap, under CC BY-SA 4.0", "http://tile.openweathermap.org/map/clouds_new/%7Bz%7D/%7Bx%7D/%7By%7D.png?APPID=ef3c5137f6c31db50c4c6f1ce4e7e9dd", "", "19", "0"])
+sources.append(["connections-xyz","Open Weather Map Wind Speed", "", "", "Map tiles by OpenWeatherMap, under CC BY-SA 4.0", "http://tile.openweathermap.org/map/wind_new/%7Bz%7D/%7Bx%7D/%7By%7D.png?APPID=f9d0069aa69438d52276ae25c1ee9893", "", "19", "0"])
+sources.append(["connections-xyz","CartoDb Dark Matter", "", "", " Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.", "http://a.basemaps.cartocdn.com/dark_all/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "20", "0"])
+sources.append(["connections-xyz","CartoDb Positron", "", "", " Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.", "http://a.basemaps.cartocdn.com/light_all/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "20", "0"])
+
 
 
 
