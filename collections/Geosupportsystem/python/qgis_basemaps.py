@@ -39,6 +39,9 @@ sources.append(["connections-xyz","Esri Terrain", "", "", "", "https://server.ar
 sources.append(["connections-xyz","Esri Transportation", "", "", "", "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D", "", "20", "0"])
 sources.append(["connections-xyz","Esri World Imagery", "", "", "https://wiki.openstreetmap.org/wiki/Esri", "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D", "", "22", "0"])
 sources.append(["connections-xyz","Esri Topo World", "", "", "", "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D", "", "20", "0"])
+sources.append(["connections-xyz","Open Street Map Standard", "", "", "OpenStreetMap contributors, CC-BY-SA ", "http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
+sources.append(["connections-xyz","Open Street Map H.O.T.", "", "", "OpenStreetMap contributors, CC-BY-SA ", "http://a.tile.openstreetmap.fr/hot/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
+sources.append(["connections-xyz","Open Street Map Monochrome", "", "", "OpenStreetMap contributors, CC-BY-SA ", "http://a.tiles.wmflabs.org/bw-mapnik/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
 
 
 
