@@ -11,6 +11,11 @@ Script by Klas Karlsson
 Sources from https://qms.nextgis.com/
 
 Licence GPL-3
+
+Regarding the terms of use for these background maps YOU will need to verify that you
+follow the individual EULA that comes with the different services,
+Most likely they will restrict how you can use the data.
+
 """
 
 
