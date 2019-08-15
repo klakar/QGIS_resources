@@ -3,6 +3,7 @@
 This code is used in a QGIS geometry generator for polygons.
 
 It creates random points inside polygons in a vector layer. The amount of points is somewhat controlled by a variable/number.
+In the code it is exemplified by a field name you need to replace with your own values in order to get the code to work.
 
 ```
 geom_from_wkt('MULTIPOINT (' ||
