@@ -28,6 +28,6 @@ In the code on row six, there's reference to a field name (*"num_points"*).
 If you want to have a fixed value for the number of random points in each polygon, just replace this variable with that number.
 You could also calculate a value for each feature and replace the field name with the code for that.
 
-##Known Issues
+## Known Issues
 Note that the number is the number of attempts that is made to generate random points in the polygon.
 If any generated point is outside the polygon, no new attempt will be made to replace it, and it will simply be excluded from the result.
