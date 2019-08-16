@@ -32,7 +32,7 @@ def random_points_in_polygon(number_of_points, feature, parent):
         rnd_point = QgsPointXY(rnd_x, rnd_y)
         
         # Test if the point is inside the feature geometry
-        if QgsGeometry.fromPointXY(rnd_point).within(feature.geometry()):
+        if QgsGeometry.fromPointXY(rnd_point).intersects(feature.geometry()):
             # If it is inside, add it to the list (increasing the length of the list)
             points.append(rnd_point)
     
