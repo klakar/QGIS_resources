@@ -17,12 +17,17 @@ def random_points_in_polygon(number_of_points, feature, parent):
     """
     points = list() # Create an empty list for the points
     
-    
+    # Generate feature bounding box limits
+    min_x = feature.geometry().boundingBox().xMinimum()
+    max_x = feature.geometry().boundingBox().xMaximum()
+    min_y = feature.geometry().boundingBox().yMinimum()
+    max_y = feature.geometry().boundingBox().yMaximum()
+  
     # Until there's the required points in the list, loop (not the best way probably)
     while len(points) < number_of_points:
         # Create random x and y coordinates inside feature geometry bounding box
-        rnd_x = random.uniform(feature.geometry().boundingBox().xMinimum(), feature.geometry().boundingBox().xMaximum())
-        rnd_y = random.uniform(feature.geometry().boundingBox().yMinimum(), feature.geometry().boundingBox().yMaximum())
+        rnd_x = random.uniform(min_x, max_x)
+        rnd_y = random.uniform(min_y, max_y)
         # Use the coordinates to create a point
         rnd_point = QgsPointXY(rnd_x, rnd_y)
         
