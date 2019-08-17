@@ -9,7 +9,8 @@ def random_points_in_polygon(number_of_points, feature, parent):
     <i>random_points_in_polygon( n )</i><br><br>
     Generates 'n' number of points inside the current polygon geometry.<br><br>
     <b>Requires</b><br>
-    <i>n</i> (Integer)<br><br>
+    <i>n</i> (Integer)<br>
+    <u>Only supports SinglePart geometries</i><br><br>
     <b>Example</b><br>
     <i>random_points_in_polygon( 25 )</i><br>
     <br>
