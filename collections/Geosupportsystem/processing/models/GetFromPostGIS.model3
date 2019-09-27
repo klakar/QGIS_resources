@@ -1,0 +1,117 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:extenttolayer_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:extenttolayer" name="alg_id"/>
+      <Option type="QString" value="selectedlayer" name="component_description"/>
+      <Option type="double" value="332" name="component_pos_x"/>
+      <Option type="double" value="248" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:extenttolayer_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="extent" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:postgisexecuteandloadsql_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:postgisexecuteandloadsql" name="alg_id"/>
+      <Option type="QString" value="LoadSQL" name="component_description"/>
+      <Option type="double" value="574" name="component_pos_x"/>
+      <Option type="double" value="407" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:postgisexecuteandloadsql_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="Caretaker" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GEOMETRY_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="geom" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ID_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="id" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SQL">
+          <Option type="Map">
+            <Option type="QString" value="'select * from &quot;' || @schema || '&quot;.&quot;' || @tablename || '&quot; where st_intersects(geom, \'SRID=3006;POLYGON((' || &#xa;&#xa; @selectedlayer_OUTPUT_minx || ' ' ||&#xa;  @selectedlayer_OUTPUT_miny || ', ' ||&#xa;  @selectedlayer_OUTPUT_minx || ' ' ||&#xa;  @selectedlayer_OUTPUT_maxy || ', ' ||&#xa;  @selectedlayer_OUTPUT_maxx || ' ' ||&#xa;  @selectedlayer_OUTPUT_maxy || ', ' ||&#xa;  @selectedlayer_OUTPUT_maxx || ' ' ||&#xa;  @selectedlayer_OUTPUT_miny || ', ' ||&#xa; @selectedlayer_OUTPUT_minx || ' ' ||&#xa;  @selectedlayer_OUTPUT_miny&#xa;&#xa;|| '))\');'" name="expression"/>
+            <Option type="int" value="3" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" value="MyScripts" name="model_group"/>
+  <Option type="QString" value="LoadFromPostGIS" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="extent">
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="Extent" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="extent" name="name"/>
+      <Option type="QString" value="extent" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="schema">
+      <Option type="QString" value="" name="default"/>
+      <Option type="QString" value="Schema Name" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="bool" value="false" name="multiline"/>
+      <Option type="QString" value="schema" name="name"/>
+      <Option type="QString" value="string" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="tablename">
+      <Option type="QString" value="" name="default"/>
+      <Option type="QString" value="Table Name" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="bool" value="false" name="multiline"/>
+      <Option type="QString" value="tablename" name="name"/>
+      <Option type="QString" value="string" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="extent">
+      <Option type="QString" value="extent" name="component_description"/>
+      <Option type="double" value="142" name="component_pos_x"/>
+      <Option type="double" value="136" name="component_pos_y"/>
+      <Option type="QString" value="extent" name="name"/>
+    </Option>
+    <Option type="Map" name="schema">
+      <Option type="QString" value="schema" name="component_description"/>
+      <Option type="double" value="148" name="component_pos_x"/>
+      <Option type="double" value="372" name="component_pos_y"/>
+      <Option type="QString" value="schema" name="name"/>
+    </Option>
+    <Option type="Map" name="tablename">
+      <Option type="QString" value="tablename" name="component_description"/>
+      <Option type="double" value="144" name="component_pos_x"/>
+      <Option type="double" value="493" name="component_pos_y"/>
+      <Option type="QString" value="tablename" name="name"/>
+    </Option>
+  </Option>
+</Option>
