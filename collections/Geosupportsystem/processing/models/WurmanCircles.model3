@@ -1,0 +1,306 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:buffer_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:buffer" type="QString" name="alg_id"/>
+      <Option value="Buffer" type="QString" name="component_description"/>
+      <Option value="698" type="double" name="component_pos_x"/>
+      <Option value="456" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="native:buffer_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Wurman Circles">
+          <Option value="native:buffer_1" type="QString" name="child_id"/>
+          <Option value="Wurman Circles" type="QString" name="component_description"/>
+          <Option value="865" type="double" name="component_pos_x"/>
+          <Option value="281" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Wurman Circles" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="QgsProperty" name="static_value">
+              <Option type="Map">
+                <Option value="true" type="bool" name="active"/>
+                <Option value="scale_linear(&#xa;&quot;r_1&quot;, &#xa; @raster_statistics_MIN   ,    &#xa; @raster_statistics_MAX    , 0,  &#xa;sqrt((&#xa;@pointdistancemapunits ^2)/2)/2&#xa;)" type="QString" name="expression"/>
+                <Option value="3" type="int" name="type"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="qgis:rastersampling_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="2" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:centroids_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:centroids" type="QString" name="alg_id"/>
+      <Option value="Centroids" type="QString" name="component_description"/>
+      <Option value="474" type="double" name="component_pos_x"/>
+      <Option value="251" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="native:centroids_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ALL_PARTS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="qgis:creategrid_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:creategrid_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="qgis:creategrid" type="QString" name="alg_id"/>
+      <Option value="Create grid" type="QString" name="component_description"/>
+      <Option value="383" type="double" name="component_pos_x"/>
+      <Option value="158" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="qgis:creategrid_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="CRS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="ProjectCrs" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTENT">
+          <Option type="Map">
+            <Option value="extent" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="HOVERLAY">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="HSPACING">
+          <Option type="Map">
+            <Option value="pointdistancemapunits" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TYPE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="3" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="VOVERLAY">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="VSPACING">
+          <Option type="Map">
+            <Option value="pointdistancemapunits" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:rasterlayerstatistics_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="qgis:rasterlayerstatistics" type="QString" name="alg_id"/>
+      <Option value="raster_statistics" type="QString" name="component_description"/>
+      <Option value="322" type="double" name="component_pos_x"/>
+      <Option value="391" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="qgis:rasterlayerstatistics_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="BAND">
+          <Option type="Map">
+            <Option value="band" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="raster" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:rastersampling_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="qgis:rastersampling" type="QString" name="alg_id"/>
+      <Option value="Sample raster values" type="QString" name="component_description"/>
+      <Option value="592" type="double" name="component_pos_x"/>
+      <Option value="361" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="qgis:rastersampling_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN_PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="r" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:centroids_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RASTERCOPY">
+          <Option type="Map">
+            <Option value="raster" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option value="myModels" type="QString" name="model_group"/>
+  <Option value="WurmanDots" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="band">
+      <Option value="false" type="bool" name="allow_multiple"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Band" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="band" type="QString" name="name"/>
+      <Option value="band" type="QString" name="parameter_type"/>
+      <Option value="raster" type="QString" name="parent_layer"/>
+    </Option>
+    <Option type="Map" name="extent">
+      <Option type="invalid" name="default"/>
+      <Option value="extent" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="extent" type="QString" name="name"/>
+      <Option value="extent" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="native:buffer_1:Wurman Circles">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option value="2" type="int" name="data_type"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Wurman Circles" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="native:buffer_1:Wurman Circles" type="QString" name="name"/>
+      <Option value="sink" type="QString" name="parameter_type"/>
+      <Option value="true" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="pointdistancemapunits">
+      <Option value="1" type="int" name="data_type"/>
+      <Option value="1000" type="QString" name="default"/>
+      <Option value="Point Distance (map units)" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="1.7976931348623157e+308" type="double" name="max"/>
+      <Option name="metadata"/>
+      <Option value="-1.7976931348623157e+308" type="double" name="min"/>
+      <Option value="pointdistancemapunits" type="QString" name="name"/>
+      <Option value="number" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="raster">
+      <Option type="invalid" name="default"/>
+      <Option value="Raster" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="raster" type="QString" name="name"/>
+      <Option value="raster" type="QString" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="band">
+      <Option value="band" type="QString" name="component_description"/>
+      <Option value="130" type="double" name="component_pos_x"/>
+      <Option value="438" type="double" name="component_pos_y"/>
+      <Option value="band" type="QString" name="name"/>
+    </Option>
+    <Option type="Map" name="extent">
+      <Option value="extent" type="QString" name="component_description"/>
+      <Option value="121" type="double" name="component_pos_x"/>
+      <Option value="71" type="double" name="component_pos_y"/>
+      <Option value="extent" type="QString" name="name"/>
+    </Option>
+    <Option type="Map" name="pointdistancemapunits">
+      <Option value="pointdistancemapunits" type="QString" name="component_description"/>
+      <Option value="129" type="double" name="component_pos_x"/>
+      <Option value="166" type="double" name="component_pos_y"/>
+      <Option value="pointdistancemapunits" type="QString" name="name"/>
+    </Option>
+    <Option type="Map" name="raster">
+      <Option value="raster" type="QString" name="component_description"/>
+      <Option value="115" type="double" name="component_pos_x"/>
+      <Option value="322" type="double" name="component_pos_y"/>
+      <Option value="raster" type="QString" name="name"/>
+    </Option>
+  </Option>
+</Option>
