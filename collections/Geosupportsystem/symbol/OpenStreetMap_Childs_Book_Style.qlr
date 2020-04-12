@@ -1,0 +1,1350 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties/>
+    <layer-tree-group name="OSM" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+      <layer-tree-layer source="/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_buildings_a_free_1.shp" providerKey="ogr" name="gis_osm_buildings_a_free_1" checked="Qt::Checked" expanded="1" id="gis_osm_buildings_a_free_1_bb2b7609_d4e9_4def_b37b_488a6cc01a5a">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_roads_free_1.shp" providerKey="ogr" name="gis_osm_roads_free_1" checked="Qt::Checked" expanded="1" id="gis_osm_roads_free_1_33a08a9f_02fc_404a_96ad_d354f29b65f4">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_water_a_free_1.shp" providerKey="ogr" name="gis_osm_water_a_free_1" checked="Qt::Checked" expanded="1" id="gis_osm_water_a_free_1_d5a56f2f_53ff_4414_bc9a_6a4a8ef33653">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_landuse_a_free_1.shp|layerid=0|subset=&quot;fclass&quot; in ('forest','scrub','nature_reserve')" providerKey="ogr" name="gis_osm_landuse_a_free_1" checked="Qt::Checked" expanded="0" id="gis_osm_landuse_a_free_1_0f0a4251_5bbc_4810_810e_d830e94a16fe">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyLocal="1" simplifyDrawingHints="1" type="vector" readOnly="0" minScale="100000000" geometry="Polygon" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" labelsEnabled="0" maxScale="0" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>10.99025420000000075</xmin>
+        <ymin>55.33782070000000175</ymin>
+        <xmax>24.18506569999999911</xmax>
+        <ymax>69.06082910000000652</ymax>
+      </extent>
+      <id>gis_osm_buildings_a_free_1_bb2b7609_d4e9_4def_b37b_488a6cc01a5a</id>
+      <datasource>/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_buildings_a_free_1.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>gis_osm_buildings_a_free_1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" alpha="1" type="fill" name="0" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.46"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <effect type="effectStack" enabled="1">
+                <effect type="dropShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="2.645"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="offset_angle" v="135"/>
+                  <prop k="offset_distance" v="2"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="opacity" v="1"/>
+                </effect>
+                <effect type="outerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="2.645"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="opacity" v="0.5"/>
+                  <prop k="rampType" v="gradient"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                </effect>
+                <effect type="drawSource">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="1"/>
+                  <prop k="opacity" v="1"/>
+                </effect>
+                <effect type="innerShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="0"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="1"/>
+                  <prop k="offset_angle" v="-63"/>
+                  <prop k="offset_distance" v="2.4"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="opacity" v="0.306"/>
+                </effect>
+                <effect type="innerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="2.645"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="opacity" v="0.5"/>
+                  <prop k="rampType" v="gradient"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                </effect>
+              </effect>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="osm_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fclass">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="osm_id" name=""/>
+        <alias index="1" field="code" name=""/>
+        <alias index="2" field="fclass" name=""/>
+        <alias index="3" field="name" name=""/>
+        <alias index="4" field="type" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="code" expression=""/>
+        <default applyOnUpdate="0" field="fclass" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="type" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" field="osm_id" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="code" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fclass" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="name" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="type" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="code" desc="" exp=""/>
+        <constraint field="fclass" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="type" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" simplifyDrawingHints="1" type="vector" readOnly="0" minScale="100000000" geometry="Line" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" labelsEnabled="0" maxScale="0" wkbType="MultiLineString" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>10.99211999999999989</xmin>
+        <ymin>55.33674510000000168</ymin>
+        <xmax>24.41238029999999881</xmax>
+        <ymax>69.08127460000000042</ymax>
+      </extent>
+      <id>gis_osm_roads_free_1_33a08a9f_02fc_404a_96ad_d354f29b65f4</id>
+      <datasource>/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_roads_free_1.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>gis_osm_roads_free_1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" alpha="1" type="line" name="0" clip_to_extent="1">
+            <layer locked="0" class="GeometryGenerator" pass="0" enabled="1">
+              <prop k="SymbolType" v="Line"/>
+              <prop k="geometryModifier" v="smooth($geometry,3)"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <symbol force_rhr="0" alpha="1" type="line" name="@0@0" clip_to_extent="1">
+                <layer locked="0" class="SimpleLine" pass="0" enabled="1">
+                  <prop k="capstyle" v="round"/>
+                  <prop k="customdash" v="5;2"/>
+                  <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="customdash_unit" v="MM"/>
+                  <prop k="draw_inside_polygon" v="0"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="line_color" v="35,35,35,255"/>
+                  <prop k="line_style" v="solid"/>
+                  <prop k="line_width" v="1.06"/>
+                  <prop k="line_width_unit" v="MM"/>
+                  <prop k="offset" v="0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="ring_filter" v="0"/>
+                  <prop k="use_custom_dash" v="0"/>
+                  <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="osm_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fclass">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ref">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="layer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="osm_id" name=""/>
+        <alias index="1" field="code" name=""/>
+        <alias index="2" field="fclass" name=""/>
+        <alias index="3" field="name" name=""/>
+        <alias index="4" field="ref" name=""/>
+        <alias index="5" field="oneway" name=""/>
+        <alias index="6" field="maxspeed" name=""/>
+        <alias index="7" field="layer" name=""/>
+        <alias index="8" field="bridge" name=""/>
+        <alias index="9" field="tunnel" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="code" expression=""/>
+        <default applyOnUpdate="0" field="fclass" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="ref" expression=""/>
+        <default applyOnUpdate="0" field="oneway" expression=""/>
+        <default applyOnUpdate="0" field="maxspeed" expression=""/>
+        <default applyOnUpdate="0" field="layer" expression=""/>
+        <default applyOnUpdate="0" field="bridge" expression=""/>
+        <default applyOnUpdate="0" field="tunnel" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" field="osm_id" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="code" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fclass" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="name" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ref" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="oneway" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="maxspeed" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="layer" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="bridge" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="tunnel" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="code" desc="" exp=""/>
+        <constraint field="fclass" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="ref" desc="" exp=""/>
+        <constraint field="oneway" desc="" exp=""/>
+        <constraint field="maxspeed" desc="" exp=""/>
+        <constraint field="layer" desc="" exp=""/>
+        <constraint field="bridge" desc="" exp=""/>
+        <constraint field="tunnel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" simplifyDrawingHints="1" type="vector" readOnly="0" minScale="100000000" geometry="Polygon" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" labelsEnabled="0" maxScale="0" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>11.01556069999999998</xmin>
+        <ymin>55.34089780000000047</ymin>
+        <xmax>24.20159269999999907</xmax>
+        <ymax>69.06958260000000394</ymax>
+      </extent>
+      <id>gis_osm_water_a_free_1_d5a56f2f_53ff_4414_bc9a_6a4a8ef33653</id>
+      <datasource>/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_water_a_free_1.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>gis_osm_water_a_free_1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" alpha="1" type="fill" name="0" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="97,174,195,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="100,152,210,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <effect type="effectStack" enabled="1">
+                <effect type="dropShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="2.645"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="offset_angle" v="135"/>
+                  <prop k="offset_distance" v="2"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="opacity" v="1"/>
+                </effect>
+                <effect type="outerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="2.645"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="opacity" v="0.5"/>
+                  <prop k="rampType" v="gradient"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                </effect>
+                <effect type="drawSource">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="1"/>
+                  <prop k="opacity" v="1"/>
+                </effect>
+                <effect type="innerShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="0"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="1"/>
+                  <prop k="offset_angle" v="-96"/>
+                  <prop k="offset_distance" v="5.6"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="opacity" v="0.2"/>
+                </effect>
+                <effect type="innerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="2.645"/>
+                  <prop k="blur_unit" v="MM"/>
+                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="opacity" v="0.5"/>
+                  <prop k="rampType" v="gradient"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                </effect>
+              </effect>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="osm_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fclass">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="osm_id" name=""/>
+        <alias index="1" field="code" name=""/>
+        <alias index="2" field="fclass" name=""/>
+        <alias index="3" field="name" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="code" expression=""/>
+        <default applyOnUpdate="0" field="fclass" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" field="osm_id" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="code" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fclass" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="name" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="code" desc="" exp=""/>
+        <constraint field="fclass" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" simplifyDrawingHints="1" type="vector" readOnly="0" minScale="100000000" geometry="Polygon" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" labelsEnabled="0" maxScale="0" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>10.94216589999999911</xmin>
+        <ymin>55.26938710000000299</ymin>
+        <xmax>24.44766399999999962</xmax>
+        <ymax>69.09637069999999426</ymax>
+      </extent>
+      <id>gis_osm_landuse_a_free_1_0f0a4251_5bbc_4810_810e_d830e94a16fe</id>
+      <datasource>/vsizip/./Hämtningar/sweden-latest-free.shp.zip/gis_osm_landuse_a_free_1.shp|layerid=0|subset="fclass" in ('forest','scrub','nature_reserve')</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>gis_osm_landuse_a_free_1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" attr="fclass" type="categorizedSymbol" enableorderby="0">
+        <categories>
+          <category symbol="0" render="true" label="forest" value="forest"/>
+          <category symbol="1" render="false" label="nature_reserve" value="nature_reserve"/>
+          <category symbol="2" render="true" label="scrub" value="scrub"/>
+          <category symbol="3" render="true" label="" value=""/>
+        </categories>
+        <symbols>
+          <symbol force_rhr="0" alpha="1" type="fill" name="0" clip_to_extent="1">
+            <layer locked="0" class="GeometryGenerator" pass="0" enabled="1">
+              <prop k="SymbolType" v="Fill"/>
+              <prop k="geometryModifier" v="smooth($geometry)"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <symbol force_rhr="0" alpha="1" type="fill" name="@0@0" clip_to_extent="1">
+                <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+                  <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="176,204,114,255"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="35,35,35,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="1.06"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="style" v="solid"/>
+                  <effect type="effectStack" enabled="0">
+                    <effect type="dropShadow">
+                      <prop k="blend_mode" v="13"/>
+                      <prop k="blur_level" v="2.645"/>
+                      <prop k="blur_unit" v="MM"/>
+                      <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="color" v="0,0,0,255"/>
+                      <prop k="draw_mode" v="2"/>
+                      <prop k="enabled" v="0"/>
+                      <prop k="offset_angle" v="135"/>
+                      <prop k="offset_distance" v="2"/>
+                      <prop k="offset_unit" v="MM"/>
+                      <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="opacity" v="1"/>
+                    </effect>
+                    <effect type="outerGlow">
+                      <prop k="blend_mode" v="0"/>
+                      <prop k="blur_level" v="2.645"/>
+                      <prop k="blur_unit" v="MM"/>
+                      <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="color1" v="0,0,255,255"/>
+                      <prop k="color2" v="0,255,0,255"/>
+                      <prop k="color_type" v="0"/>
+                      <prop k="discrete" v="0"/>
+                      <prop k="draw_mode" v="2"/>
+                      <prop k="enabled" v="0"/>
+                      <prop k="opacity" v="0.5"/>
+                      <prop k="rampType" v="gradient"/>
+                      <prop k="single_color" v="255,255,255,255"/>
+                      <prop k="spread" v="2"/>
+                      <prop k="spread_unit" v="MM"/>
+                      <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                    </effect>
+                    <effect type="drawSource">
+                      <prop k="blend_mode" v="0"/>
+                      <prop k="draw_mode" v="2"/>
+                      <prop k="enabled" v="1"/>
+                      <prop k="opacity" v="1"/>
+                    </effect>
+                    <effect type="innerShadow">
+                      <prop k="blend_mode" v="13"/>
+                      <prop k="blur_level" v="0"/>
+                      <prop k="blur_unit" v="MM"/>
+                      <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="color" v="0,0,0,255"/>
+                      <prop k="draw_mode" v="2"/>
+                      <prop k="enabled" v="1"/>
+                      <prop k="offset_angle" v="-43"/>
+                      <prop k="offset_distance" v="8.6"/>
+                      <prop k="offset_unit" v="MM"/>
+                      <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="opacity" v="0.258"/>
+                    </effect>
+                    <effect type="innerGlow">
+                      <prop k="blend_mode" v="0"/>
+                      <prop k="blur_level" v="2.645"/>
+                      <prop k="blur_unit" v="MM"/>
+                      <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="color1" v="0,0,255,255"/>
+                      <prop k="color2" v="0,255,0,255"/>
+                      <prop k="color_type" v="0"/>
+                      <prop k="discrete" v="0"/>
+                      <prop k="draw_mode" v="2"/>
+                      <prop k="enabled" v="0"/>
+                      <prop k="opacity" v="0.5"/>
+                      <prop k="rampType" v="gradient"/>
+                      <prop k="single_color" v="255,255,255,255"/>
+                      <prop k="spread" v="2"/>
+                      <prop k="spread_unit" v="MM"/>
+                      <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                    </effect>
+                  </effect>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+                <layer locked="0" class="GeometryGenerator" pass="0" enabled="1">
+                  <prop k="SymbolType" v="Fill"/>
+                  <prop k="geometryModifier" v="smooth(simplify($geometry,0.0001),5)"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                  <symbol force_rhr="0" alpha="1" type="fill" name="@@0@0@1" clip_to_extent="1">
+                    <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+                      <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="color" v="176,204,114,255"/>
+                      <prop k="joinstyle" v="bevel"/>
+                      <prop k="offset" v="0,0"/>
+                      <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="offset_unit" v="MM"/>
+                      <prop k="outline_color" v="35,35,35,255"/>
+                      <prop k="outline_style" v="solid"/>
+                      <prop k="outline_width" v="1.06"/>
+                      <prop k="outline_width_unit" v="MM"/>
+                      <prop k="style" v="solid"/>
+                      <effect type="effectStack" enabled="1">
+                        <effect type="dropShadow">
+                          <prop k="blend_mode" v="13"/>
+                          <prop k="blur_level" v="2.645"/>
+                          <prop k="blur_unit" v="MM"/>
+                          <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                          <prop k="color" v="0,0,0,255"/>
+                          <prop k="draw_mode" v="2"/>
+                          <prop k="enabled" v="0"/>
+                          <prop k="offset_angle" v="135"/>
+                          <prop k="offset_distance" v="2"/>
+                          <prop k="offset_unit" v="MM"/>
+                          <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                          <prop k="opacity" v="1"/>
+                        </effect>
+                        <effect type="outerGlow">
+                          <prop k="blend_mode" v="0"/>
+                          <prop k="blur_level" v="2.645"/>
+                          <prop k="blur_unit" v="MM"/>
+                          <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                          <prop k="color1" v="0,0,255,255"/>
+                          <prop k="color2" v="0,255,0,255"/>
+                          <prop k="color_type" v="0"/>
+                          <prop k="discrete" v="0"/>
+                          <prop k="draw_mode" v="2"/>
+                          <prop k="enabled" v="0"/>
+                          <prop k="opacity" v="0.5"/>
+                          <prop k="rampType" v="gradient"/>
+                          <prop k="single_color" v="255,255,255,255"/>
+                          <prop k="spread" v="2"/>
+                          <prop k="spread_unit" v="MM"/>
+                          <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                        </effect>
+                        <effect type="drawSource">
+                          <prop k="blend_mode" v="0"/>
+                          <prop k="draw_mode" v="2"/>
+                          <prop k="enabled" v="0"/>
+                          <prop k="opacity" v="1"/>
+                        </effect>
+                        <effect type="innerShadow">
+                          <prop k="blend_mode" v="13"/>
+                          <prop k="blur_level" v="0"/>
+                          <prop k="blur_unit" v="MM"/>
+                          <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                          <prop k="color" v="0,0,0,255"/>
+                          <prop k="draw_mode" v="2"/>
+                          <prop k="enabled" v="1"/>
+                          <prop k="offset_angle" v="-69"/>
+                          <prop k="offset_distance" v="10"/>
+                          <prop k="offset_unit" v="MM"/>
+                          <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                          <prop k="opacity" v="0.183"/>
+                        </effect>
+                        <effect type="innerGlow">
+                          <prop k="blend_mode" v="0"/>
+                          <prop k="blur_level" v="2.645"/>
+                          <prop k="blur_unit" v="MM"/>
+                          <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+                          <prop k="color1" v="0,0,255,255"/>
+                          <prop k="color2" v="0,255,0,255"/>
+                          <prop k="color_type" v="0"/>
+                          <prop k="discrete" v="0"/>
+                          <prop k="draw_mode" v="2"/>
+                          <prop k="enabled" v="0"/>
+                          <prop k="opacity" v="0.5"/>
+                          <prop k="rampType" v="gradient"/>
+                          <prop k="single_color" v="255,255,255,255"/>
+                          <prop k="spread" v="2"/>
+                          <prop k="spread_unit" v="MM"/>
+                          <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                        </effect>
+                      </effect>
+                      <data_defined_properties>
+                        <Option type="Map">
+                          <Option type="QString" value="" name="name"/>
+                          <Option name="properties"/>
+                          <Option type="QString" value="collection" name="type"/>
+                        </Option>
+                      </data_defined_properties>
+                    </layer>
+                  </symbol>
+                </layer>
+                <layer locked="0" class="RandomMarkerFill" pass="0" enabled="1">
+                  <prop k="clip_points" v="1"/>
+                  <prop k="count_method" v="1"/>
+                  <prop k="density_area" v="2050"/>
+                  <prop k="density_area_unit" v="MM"/>
+                  <prop k="density_area_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="point_count" v="10"/>
+                  <prop k="seed" v="429057116"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                  <symbol force_rhr="0" alpha="1" type="marker" name="@@0@0@2" clip_to_extent="1">
+                    <layer locked="0" class="FontMarker" pass="0" enabled="1">
+                      <prop k="angle" v="20"/>
+                      <prop k="chr" v=")"/>
+                      <prop k="color" v="0,0,0,255"/>
+                      <prop k="font" v="Arial Black"/>
+                      <prop k="horizontal_anchor_point" v="1"/>
+                      <prop k="joinstyle" v="miter"/>
+                      <prop k="offset" v="0,0"/>
+                      <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="offset_unit" v="MM"/>
+                      <prop k="outline_color" v="35,35,35,255"/>
+                      <prop k="outline_width" v="0"/>
+                      <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="outline_width_unit" v="MM"/>
+                      <prop k="size" v="6"/>
+                      <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                      <prop k="size_unit" v="MM"/>
+                      <prop k="vertical_anchor_point" v="1"/>
+                      <data_defined_properties>
+                        <Option type="Map">
+                          <Option type="QString" value="" name="name"/>
+                          <Option name="properties"/>
+                          <Option type="QString" value="collection" name="type"/>
+                        </Option>
+                      </data_defined_properties>
+                    </layer>
+                  </symbol>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" alpha="1" type="fill" name="1" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="207,59,30,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" alpha="1" type="fill" name="2" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="168,234,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" alpha="1" type="fill" name="3" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="199,115,240,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol force_rhr="0" alpha="1" type="fill" name="0" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"name"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="osm_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fclass">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="osm_id" name=""/>
+        <alias index="1" field="code" name=""/>
+        <alias index="2" field="fclass" name=""/>
+        <alias index="3" field="name" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="code" expression=""/>
+        <default applyOnUpdate="0" field="fclass" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" field="osm_id" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="code" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fclass" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="name" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="code" desc="" exp=""/>
+        <constraint field="fclass" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column type="field" name="osm_id" hidden="0" width="-1"/>
+          <column type="field" name="code" hidden="0" width="-1"/>
+          <column type="field" name="fclass" hidden="0" width="147"/>
+          <column type="field" name="name" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
