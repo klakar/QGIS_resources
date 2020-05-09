@@ -85,7 +85,7 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
         vy.setCrs(crs)
         from qgis.PyQt.QtCore import QVariant
         py = vy.dataProvider()
-        py.addAttributes([QgsField("fid", QVariant.Int),\
+        py.addAttributes([QgsField("id", QVariant.Int),\
                         QgsField("sort", QVariant.Int),\
                         QgsField("category", QVariant.String),\
                         QgsField("name", QVariant.String),\
@@ -97,12 +97,12 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
         vy.updateFields()
 
 
-        for (fid, sort, category, name, geometry) in root.findall('{urn:se:smhi:cap:metadata}district_view'):
+        for (id, sort, category, name, geometry) in root.findall('{urn:se:smhi:cap:metadata}district_view'):
             fy = QgsFeature()
             y = QgsGeometry.fromWkt(geometry[1].text)
             y.get().swapXy()
             fy.setGeometry(y)
-            fy.setAttributes([fid.text, \
+            fy.setAttributes([id.text, \
                         sort.text, \
                         category.text, \
                         name.text])
@@ -110,7 +110,11 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
 
         for alert in alert_root.iter('{urn:oasis:names:tc:emergency:cap:1.2}info'):
                 for area in alert.iter('{urn:oasis:names:tc:emergency:cap:1.2}area'):
-                    fid = int(area[0].text)
+                    id = area[0].text
+                for feature in vy.getFeatures():
+                    if feature['id'] == id:
+                        fid = feature.id()
+                        
                 attribs = { 4 : alert[7][1].text, \
                         5 : int(alert[8][1].text), \
                         6 : alert[9][1].text, \
