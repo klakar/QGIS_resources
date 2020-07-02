@@ -1,0 +1,130 @@
+<Layout printResolution="96" name="Screen FullHD 1080p Terrängkartan" units="mm" worldFileMap="{8d8b5b7a-0735-47e1-b87c-5188752dab91}">
+ <Snapper snapToGrid="0" snapToGuides="1" snapToItems="1" tolerance="5"/>
+ <Grid resolution="10" resUnits="mm" offsetX="0" offsetY="0" offsetUnits="mm"/>
+ <PageCollection>
+  <symbol name="" type="fill" alpha="1" clip_to_extent="1">
+   <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem outlineWidthM="0.3,mm" position="0,0,mm" zValue="0" opacity="1" uuid="{734cb277-738f-45e4-acec-52b18d844e45}" frame="false" visibility="1" groupUuid="" templateUuid="{734cb277-738f-45e4-acec-52b18d844e45}" type="65638" positionOnPage="0,0,mm" referencePoint="0" frameJoinStyle="miter" blendMode="0" excludeFromExports="0" size="1080,1080,px" positionLock="false" background="true" itemRotation="0" id="">
+   <FrameColor blue="0" green="0" alpha="255" red="0"/>
+   <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem outlineWidthM="0.3,mm" position="3.48032,3.91536,mm" svgBorderWidth="0" zValue="4" svgBorderColor="0,0,0,255" opacity="0.694" pictureWidth="31.7579" pictureHeight="14.8032" uuid="{9b4d6db0-2765-4247-8171-bce81de98fdf}" frame="false" visibility="1" northOffset="0" resizeMode="0" groupUuid="" templateUuid="{9b4d6db0-2765-4247-8171-bce81de98fdf}" type="65640" positionOnPage="3.48032,3.91536,mm" referencePoint="0" file="madeWithQGIS.svg" anchorPoint="0" svgFillColor="154,154,154,255" pictureRotation="0" frameJoinStyle="miter" mapUuid="" northMode="0" blendMode="6" excludeFromExports="0" size="31.7579,17.4016,mm" positionLock="true" background="false" itemRotation="0" id="made with QGIS logo">
+  <FrameColor blue="0" green="0" alpha="255" red="0"/>
+  <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" position="0,884.05,px" zValue="4" opacity="1" htmlState="1" uuid="{6c5df1c7-2e8b-4898-b90e-829d7b7bf49c}" frame="false" visibility="1" marginX="0" groupUuid="" templateUuid="{6c5df1c7-2e8b-4898-b90e-829d7b7bf49c}" type="65641" positionOnPage="0,884.05,px" referencePoint="0" valign="128" frameJoinStyle="miter" halign="4" blendMode="0" excludeFromExports="0" marginY="3" size="1080,171.525,px" positionLock="false" background="false" labelText="&lt;div style=&quot;letter-spacing: 5pt;text-transform: uppercase;font-weight:bolder;&quot;>&#xa;{{title}}&#xa;&lt;/div>&lt;div style=&quot;font-size: 80%;margin:8px;&quot;>&#xa;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&#xa;&lt;/div>" itemRotation="0" id="Title">
+  <FrameColor blue="0" green="0" alpha="255" red="0"/>
+  <BackgroundColor blue="255" green="255" alpha="217" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="Regular" description="Arial,26,-1,5,50,0,0,0,0,0,Regular"/>
+  <FontColor blue="0" green="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" position="0,878.162,px" zValue="3" cornerRadiusMeasure="0,mm" opacity="1" uuid="{b06eb97a-9fba-43f8-9071-543fd837a88b}" frame="false" visibility="1" groupUuid="" templateUuid="{b06eb97a-9fba-43f8-9071-543fd837a88b}" type="65643" positionOnPage="0,878.162,px" referencePoint="0" shapeType="1" frameJoinStyle="miter" blendMode="0" excludeFromExports="0" size="1079.43,176.846,px" positionLock="true" background="false" itemRotation="0" id="Title Background">
+  <FrameColor blue="0" green="0" alpha="255" red="0"/>
+  <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <symbol name="" type="fill" alpha="1" clip_to_extent="1">
+   <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,217"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.3"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" position="0,-6.94288e-17,px" zValue="1" keepLayerSet="false" drawCanvasItems="true" opacity="1" uuid="{599c2967-8324-4e36-88af-1c8e8d73da55}" mapRotation="0" frame="false" followPreset="false" visibility="1" followPresetName="" groupUuid="" templateUuid="{599c2967-8324-4e36-88af-1c8e8d73da55}" type="65639" positionOnPage="0,-6.94288e-17,px" referencePoint="0" frameJoinStyle="miter" blendMode="0" excludeFromExports="0" size="1080,1080,px" positionLock="false" background="true" itemRotation="0" id="Map">
+  <FrameColor blue="0" green="0" alpha="255" red="0"/>
+  <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent xmin="477429.1948005604208447" ymin="6384852.89372823759913445" xmax="487628.67078940133797005" ymax="6395052.36971707828342915"/>
+  <LayerSet/>
+  <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
+ </LayoutItem>
+ <customproperties>
+  <property value="png" key="atlasRasterFormat"/>
+ </customproperties>
+ <Atlas sortFeatures="0" pageNameExpression="" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" enabled="0" hideCoverage="0" coverageLayer=""/>
+</Layout>
