@@ -1,0 +1,141 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol force_rhr="0" name="Perimeter LineArt 1" alpha="1" clip_to_extent="1" type="fill" tags="Line Art">
+      <layer pass="0" enabled="1" locked="1" class="SimpleFill">
+        <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="color" v="5,5,10,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_width" v="0.66"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer pass="0" enabled="1" locked="0" class="GeometryGenerator">
+        <prop k="SymbolType" v="Line"/>
+        <prop k="geometryModifier" v="collect_geometries(&#xa; with_variable( 'punkter',&#xa; to_int(num_points($geometry)/5),&#xa;array_foreach(&#xa;generate_series(1,num_points($geometry)),&#xa;&#xa;make_line( point_n($geometry,@element),&#xa;point_n($geometry,&#xa;if(@element > num_points($geometry)-@punkter,&#xa;@element-num_points($geometry)+@punkter,&#xa;@element+@punkter&#xa;))) &#xa;&#xa;)))"/>
+        <effect enabled="0" type="effectStack">
+          <effect type="dropShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="outerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+          <effect type="drawSource">
+            <prop k="blend_mode" v="13"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="0.73"/>
+          </effect>
+          <effect type="innerShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="innerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+        </effect>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol force_rhr="0" name="@Perimeter LineArt 1@1" alpha="1" clip_to_extent="1" type="line">
+          <layer pass="0" enabled="1" locked="0" class="SimpleLine">
+            <prop k="capstyle" v="square"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="line_color" v="37,76,217,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.26"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="ring_filter" v="0"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
