@@ -1,0 +1,69 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol clip_to_extent="1" tags="Cartoon" force_rhr="0" name="Bloated" alpha="1" type="fill">
+      <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+        <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="color" v="231,246,248,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="35,35,35,0"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_width" v="0.26"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer pass="0" enabled="1" locked="0" class="GeometryGenerator">
+        <prop k="SymbolType" v="Line"/>
+        <prop k="geometryModifier" v="-- Change value for &quot;thickness&quot; (also try negative values)&#xa;with_variable('thickness',0.1&#xa;&#xa;-- No need to change anything below&#xa;,&#xa;collect_geometries(&#xa;array_foreach(&#xa;generate_series(1,num_points($geometry)-1)&#xa;,&#xa;geom_from_wkt(&#xa;'CIRCULARSTRING('||(x(point_n($geometry,@element)))||' '||&#xa;(y(point_n($geometry,@element))) ||', '||&#xa;&#xa;(x(&#xa;&#x9;project(&#xa;&#x9;point_n($geometry,@element),&#xa;&#x9;distance(&#xa;&#x9;&#x9;point_n($geometry,@element),&#xa;&#x9;&#x9;point_n($geometry,@element+1)&#xa;&#x9;)/2,&#xa;&#x9;azimuth(&#xa;&#x9;&#x9;point_n($geometry,@element),&#xa;&#x9;&#x9;point_n($geometry,@element+1)&#xa;&#x9;)- @thickness&#xa;&#x9;)&#xa;))||' '||&#xa;(y(&#xa;&#x9;project(&#xa;&#x9;point_n($geometry,@element),&#xa;&#x9;distance(&#xa;&#x9;&#x9;point_n($geometry,@element),&#xa;&#x9;&#x9;point_n($geometry,@element+1)&#xa;&#x9;)/2,&#xa;&#x9;azimuth(&#xa;&#x9;&#x9;point_n($geometry,@element),&#xa;&#x9;&#x9;point_n($geometry,@element+1)&#xa;&#x9;)- @thickness&#xa;&#x9;)&#xa;))||', '||&#xa;&#xa;(x(point_n($geometry,@element+1)))||' '||&#xa;(y(point_n($geometry,@element+1)))||')'&#xa;)&#xa;)&#xa;)&#xa;)"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol clip_to_extent="1" force_rhr="0" name="@Bloated@1" alpha="1" type="line">
+          <layer pass="0" enabled="1" locked="1" class="SimpleLine">
+            <prop k="capstyle" v="round"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="line_color" v="35,35,35,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="1.86"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="offset" v="0.6"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="ring_filter" v="0"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
