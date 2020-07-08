@@ -32,5 +32,14 @@ This have two versions. Meters and Feet. If you choose "wrong" or the data is in
 
 #### Crayon Fill ####
 
-
 ![Skärmbild från 2020-07-07 16-12-22](https://user-images.githubusercontent.com/6375959/86918370-e3069980-c126-11ea-99f3-049b9024166d.png)
+
+#### Cool Water Style ####
+
+![Skärmbild från 2020-07-08 14-43-32](https://user-images.githubusercontent.com/6375959/86920211-b99b3d00-c129-11ea-96de-314f69d419d7.png)
+
+#### Polygon Flowers ####
+
+![Skärmbild från 2020-07-08 14-54-58](https://user-images.githubusercontent.com/6375959/86921193-06334800-c12b-11ea-9822-a08db5959f15.png)
+
+Kind of slow, and not without issues. Prefered with black background.
