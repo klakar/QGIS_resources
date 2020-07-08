@@ -24,7 +24,7 @@
       </layer>
       <layer locked="0" pass="0" enabled="1" class="GeometryGenerator">
         <prop v="Line" k="SymbolType"/>
-        <prop v="segments_to_lines($geometry)" k="geometryModifier"/>
+        <prop v="segments_to_lines(force_rhr($geometry))" k="geometryModifier"/>
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -382,7 +382,7 @@
       </layer>
       <layer locked="0" pass="0" enabled="1" class="GeometryGenerator">
         <prop v="Line" k="SymbolType"/>
-        <prop v="segments_to_lines($geometry)" k="geometryModifier"/>
+        <prop v="segments_to_lines(force_rhr($geometry))" k="geometryModifier"/>
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
