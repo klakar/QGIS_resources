@@ -1,0 +1,59 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="fill" clip_to_extent="1" name="Panel" force_rhr="0" alpha="1" tags="Art">
+      <layer pass="0" class="SVGFill" enabled="1" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="243,205,15,255" k="color"/>
+        <prop v="255,255,255,255" k="outline_color"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="pattern_width_map_unit_scale"/>
+        <prop v="MM" k="pattern_width_unit"/>
+        <prop v="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgc29kaXBvZGk6ZG9jbmFtZT0icGFuZWwuc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjAgKDQwMzVhNGZiNDksIDIwMjAtMDUtMDEpIgogICBpZD0ic3ZnOCIKICAgdmVyc2lvbj0iMS4xIgogICB2aWV3Qm94PSIwIDAgNTIuNzAyNzI4IDE1OC40NzkyMiIKICAgaGVpZ2h0PSIxNTguNDc5MjJtbSIKICAgd2lkdGg9IjUyLjcwMjcyOG1tIj4KICA8ZGVmcwogICAgIGlkPSJkZWZzMiIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaW5rc2NhcGU6c25hcC1pbnRlcnNlY3Rpb24tcGF0aHM9InRydWUiCiAgICAgaW5rc2NhcGU6c25hcC1taWRwb2ludHM9ImZhbHNlIgogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI3IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSIxMDEwIgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTQ1MiIKICAgICBpbmtzY2FwZTpzbmFwLXBhZ2U9InRydWUiCiAgICAgaW5rc2NhcGU6c25hcC1nbG9iYWw9InRydWUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOmRvY3VtZW50LXJvdGF0aW9uPSIwIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9ImxheWVyMSIKICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0ibW0iCiAgICAgaW5rc2NhcGU6Y3k9IjMxNi42OTY5MiIKICAgICBpbmtzY2FwZTpjeD0iLTU5LjU2NDMxNyIKICAgICBpbmtzY2FwZTp6b29tPSIwLjk2MjE0NjYiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMC4wIgogICAgIGJvcmRlcm9wYWNpdHk9IjEuMCIKICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgaWQ9ImJhc2UiIC8+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNSI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4KICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+CiAgPGcKICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzQuNjE5NzgxLDEzLjM5MDIxKSIKICAgICBpZD0ibGF5ZXIxIgogICAgIGlua3NjYXBlOmdyb3VwbW9kZT0ibGF5ZXIiCiAgICAgaW5rc2NhcGU6bGFiZWw9IkxhZ2VyIDEiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkgI2YzY2QwZiIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMjY0NTgzMzMsMCwwLDAuMjY0NTgzMzMsNzQuNjE5NzgxLDY1Ljg0OTM5NikiCiAgICAgICBkPSJNIDAsLTI5OS40ODgyOCBWIDAgMjk5LjQ4ODI4IEggMTk5LjE5MTQxIFYgMCAtMjk5LjQ4ODI4IFoiCiAgICAgICBpZD0icmVjdDg2OCIgLz4KICAgIDxwYXRoCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjI2NDU4MzMzLDAsMCwwLjI2NDU4MzMzLDc0LjYxOTc4MSwtMTMuMzkwMjEpIgogICAgICAgZD0iTSAwIDAgTCA5OS41OTU3MDMgNjQuOTg0Mzc1IEwgOTkuNTk1NzAzIDAgTCAwIDAgeiBNIDk5LjU5NTcwMyA2NC45ODQzNzUgTCA5OS41OTU3MDMgNzkuNzQ4MDQ3IEwgOTkuNTk1NzAzIDE2Ny4xMDc0MiBMIDk5LjU5NTcwMyAyMTkuNzQwMjMgTCA5OS41OTU3MDMgMjk5LjQ4ODI4IEwgMTk5LjE5MTQxIDM2NC40NzI2NiBMIDE5OS4xOTE0MSAyOTkuNDg4MjggTCAxOTkuMTkxNDEgMjg0LjcyNDYxIEwgMTk5LjE5MTQxIDE2Ny4xMDc0MiBMIDE5OS4xOTE0MSAxNDQuNzM0MzggTCAxOTkuMTkxNDEgMCBMIDk5LjU5NTcwMyA2NC45ODQzNzUgeiBNIDk5LjU5NTcwMyAyOTkuNDg4MjggTCAwIDM2NC40NzI2NiBMIDAgMzc5LjIzNjMzIEwgMCA1ODQuMjEyODkgTCAwIDU5OC45NzY1NiBMIDk5LjU5NTcwMyA1OTguOTc2NTYgTCA5OS41OTU3MDMgNTE5LjIyODUyIEwgOTkuNTk1NzAzIDQ0NC4yMjI2NiBMIDk5LjU5NTcwMyAyOTkuNDg4MjggeiAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eTowLjUiCiAgICAgICBpZD0icGF0aDgzOSIgLz4KICA8L2c+Cjwvc3ZnPgo=" k="svgFile"/>
+        <prop v="3x:0,0,0,0,0,0" k="svg_outline_width_map_unit_scale"/>
+        <prop v="MM" k="svg_outline_width_unit"/>
+        <prop v="8" k="width"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol type="line" clip_to_extent="1" name="@Panel@0" force_rhr="0" alpha="1">
+          <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+            <prop v="square" k="capstyle"/>
+            <prop v="5;2" k="customdash"/>
+            <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+            <prop v="MM" k="customdash_unit"/>
+            <prop v="0" k="draw_inside_polygon"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="35,35,35,255" k="line_color"/>
+            <prop v="no" k="line_style"/>
+            <prop v="0.26" k="line_width"/>
+            <prop v="MM" k="line_width_unit"/>
+            <prop v="0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0" k="ring_filter"/>
+            <prop v="0" k="use_custom_dash"/>
+            <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
