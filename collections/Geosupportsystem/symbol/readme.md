@@ -74,3 +74,9 @@ Tesselation fill in CMM style...
 
 Panel style as a SVG pattern fill.
 Set base color and "height" of embedded SVG. Pattern will include selected color and a lighter nuance.
+
+#### Dormido Fill ####
+
+![Screenshot from 2020-07-15 21-23-20](https://user-images.githubusercontent.com/6375959/87587548-8422c080-c6e2-11ea-93dd-803ecee0f898.png)
+
+This one took some time, but I think it was worth it. It is in my oppinion closer to Dormidos original hand drawn style, but as a faster style you should use @tjukanov. You can easily change fill and outline color, as well as size and rotation of the fill. The outline is only controllable with color, since it really isnt' an outline, but another polygon shape. I used some SVG/QGIS trickery to get this to work.
