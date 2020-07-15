@@ -43,3 +43,15 @@ This have two versions. Meters and Feet. If you choose "wrong" or the data is in
 ![Skärmbild från 2020-07-08 14-54-58](https://user-images.githubusercontent.com/6375959/86921193-06334800-c12b-11ea-9822-a08db5959f15.png)
 
 Kind of slow, and not without issues. Prefered with black background.
+
+#### Diamond plate ####
+
+![Screenshot from 2020-07-14 16-09-51](https://user-images.githubusercontent.com/6375959/87535923-86f8c380-c698-11ea-9d76-dff5d03fda70.png)
+
+Can also be tweaked to work as a "cloth" texture.
+
+#### Cross stitch ####
+
+![Screenshot from 2020-07-15 10-58-42](https://user-images.githubusercontent.com/6375959/87536020-b3acdb00-c698-11ea-8215-08da74999ddc.png)
+
+Simple version of the cross stitch style.
