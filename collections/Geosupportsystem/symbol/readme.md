@@ -55,3 +55,9 @@ Can also be tweaked to work as a "cloth" texture.
 ![Screenshot from 2020-07-15 10-58-42](https://user-images.githubusercontent.com/6375959/87536020-b3acdb00-c698-11ea-8215-08da74999ddc.png)
 
 Simple version of the cross stitch style.
+
+#### Cubes ####
+
+![Screenshot from 2020-07-15 15-09-48](https://user-images.githubusercontent.com/6375959/87549598-4f951180-c6ae-11ea-8d66-1f663c8a934b.png)
+
+Cubes use set color for the cube and adds lighter and darker fields to it to genereate 3D effect.
