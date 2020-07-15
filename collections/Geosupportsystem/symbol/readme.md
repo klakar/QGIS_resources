@@ -61,3 +61,9 @@ Simple version of the cross stitch style.
 ![Screenshot from 2020-07-15 15-09-48](https://user-images.githubusercontent.com/6375959/87549598-4f951180-c6ae-11ea-8d66-1f663c8a934b.png)
 
 Cubes use set color for the cube and adds lighter and darker fields to it to genereate 3D effect.
+
+#### CMM Tesselation ####
+
+![Screenshot from 2020-07-15 16-13-12](https://user-images.githubusercontent.com/6375959/87555804-35f7c800-c6b6-11ea-8523-0d77741c97f6.png)
+
+Tesselation fill in CMM style...
