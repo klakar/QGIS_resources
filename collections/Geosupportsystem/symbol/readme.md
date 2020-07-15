@@ -67,3 +67,10 @@ Cubes use set color for the cube and adds lighter and darker fields to it to gen
 ![Screenshot from 2020-07-15 16-13-12](https://user-images.githubusercontent.com/6375959/87555804-35f7c800-c6b6-11ea-8523-0d77741c97f6.png)
 
 Tesselation fill in CMM style...
+
+#### Panel ####
+
+![Screenshot from 2020-07-15 18-22-05](https://user-images.githubusercontent.com/6375959/87570339-c939f900-c6c8-11ea-8e90-b8650da5b60c.png)
+
+Panel style as a SVG pattern fill.
+Set base color and "height" of embedded SVG. Pattern will include selected color and a lighter nuance.
