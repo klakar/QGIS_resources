@@ -81,6 +81,12 @@ Set base color and "height" of embedded SVG. Pattern will include selected color
 
 This one took some time, but I think it was worth it. It is in my oppinion closer to Dormidos original hand drawn style, but as a faster style you should use @tjukanov. You can easily change fill and outline color, as well as size and rotation of the fill. The outline is only controllable with color, since it really isnt' an outline, but another polygon shape. I used some SVG/QGIS trickery to get this to work.
 
+Also...
+
+![Screenshot from 2020-07-16 10-12-36](https://user-images.githubusercontent.com/6375959/87644900-0a73ec80-c74d-11ea-9670-9c93a5288646.png)
+
+I made a "rough" version of this style. It's a bit larger (slower), but may fit better in some cases.
+
 #### Qbert ####
 
 ![Screenshot from 2020-07-16 09-32-55](https://user-images.githubusercontent.com/6375959/87640871-a3076e00-c747-11ea-859b-d553b92cfa29.png)
