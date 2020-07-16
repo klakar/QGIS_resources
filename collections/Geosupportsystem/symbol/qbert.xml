@@ -75,7 +75,7 @@
           </Option>
         </data_defined_properties>
         <symbol clip_to_extent="1" force_rhr="0" type="marker" alpha="1" name="@Qbert fill@1">
-          <layer locked="0" pass="0" class="SvgMarker" enabled="1">
+          <layer locked="1" pass="0" class="SvgMarker" enabled="1">
             <prop k="angle" v="0"/>
             <prop k="color" v="247,159,35,255"/>
             <prop k="fixedAspectRatio" v="0"/>
@@ -119,7 +119,7 @@
           </Option>
         </data_defined_properties>
         <symbol clip_to_extent="1" force_rhr="0" type="marker" alpha="1" name="@Qbert fill@2">
-          <layer locked="0" pass="0" class="SvgMarker" enabled="1">
+          <layer locked="1" pass="0" class="SvgMarker" enabled="1">
             <prop k="angle" v="0"/>
             <prop k="color" v="247,159,35,255"/>
             <prop k="fixedAspectRatio" v="0"/>
