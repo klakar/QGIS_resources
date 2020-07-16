@@ -98,3 +98,9 @@ The old 8-bit computer game comes to life in this QGIS fill style.
 ![Screenshot from 2020-07-16 13-58-33](https://user-images.githubusercontent.com/6375959/87668919-55056100-c76d-11ea-9230-befe7fbb8c27.png)
 
 With Bricks you can vary the brick size, brick and mortar colors. And, well, you can change the orientation if you really want to.
+
+#### Circle Overlap ####
+
+![Screenshot from 2020-07-16 16-25-11](https://user-images.githubusercontent.com/6375959/87683201-11b4ed80-c781-11ea-948b-54101444f35f.png)
+
+Three overlapping circles using color from fill and outline for two of them and the third is a "mix".
