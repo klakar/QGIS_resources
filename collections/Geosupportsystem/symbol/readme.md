@@ -104,3 +104,9 @@ With Bricks you can vary the brick size, brick and mortar colors. And, well, you
 ![Screenshot from 2020-07-16 16-25-11](https://user-images.githubusercontent.com/6375959/87683201-11b4ed80-c781-11ea-948b-54101444f35f.png)
 
 Three overlapping circles using color from fill and outline for two of them and the third is a "mix".
+
+#### Organic Blocks ####
+
+![Screenshot from 2020-07-16 17-32-20](https://user-images.githubusercontent.com/6375959/87691306-c0116080-c78a-11ea-9412-81734738ac32.png)
+
+A "block" style with slightly organic properties.
