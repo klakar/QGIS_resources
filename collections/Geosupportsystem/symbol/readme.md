@@ -92,3 +92,9 @@ I made a "rough" version of this style. It's a bit larger (slower), but may fit 
 ![Screenshot from 2020-07-16 09-32-55](https://user-images.githubusercontent.com/6375959/87640871-a3076e00-c747-11ea-859b-d553b92cfa29.png)
 
 The old 8-bit computer game comes to life in this QGIS fill style.
+
+#### Bricks ####
+
+![Screenshot from 2020-07-16 13-58-33](https://user-images.githubusercontent.com/6375959/87668919-55056100-c76d-11ea-9230-befe7fbb8c27.png)
+
+With Bricks you can vary the brick size, brick and mortar colors. And, well, you can change the orientation if you really want to.
