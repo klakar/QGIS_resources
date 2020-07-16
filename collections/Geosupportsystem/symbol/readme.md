@@ -64,7 +64,7 @@ Cubes use set color for the cube and adds lighter and darker fields to it to gen
 
 #### CMM Tesselation ####
 
-![Screenshot from 2020-07-15 16-13-12](https://user-images.githubusercontent.com/6375959/87555804-35f7c800-c6b6-11ea-8523-0d77741c97f6.png)
+![Screenshot from 2020-07-16 18-27-52](https://user-images.githubusercontent.com/6375959/87697267-2e0d5600-c792-11ea-993c-f3cc4559392c.png)
 
 Tesselation fill in CMM style...
 
