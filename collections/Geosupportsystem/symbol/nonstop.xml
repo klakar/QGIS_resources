@@ -1,0 +1,74 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol name="Nonstop" type="fill" tags="Art" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer enabled="1" locked="0" class="PointPatternFill" pass="0">
+        <prop v="0" k="displacement_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_x_map_unit_scale"/>
+        <prop v="MM" k="displacement_x_unit"/>
+        <prop v="0" k="displacement_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_y_map_unit_scale"/>
+        <prop v="MM" k="displacement_y_unit"/>
+        <prop v="11" k="distance_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_x_map_unit_scale"/>
+        <prop v="MM" k="distance_x_unit"/>
+        <prop v="11" k="distance_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_y_map_unit_scale"/>
+        <prop v="MM" k="distance_y_unit"/>
+        <prop v="0" k="offset_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_x_map_unit_scale"/>
+        <prop v="MM" k="offset_x_unit"/>
+        <prop v="0" k="offset_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_y_map_unit_scale"/>
+        <prop v="MM" k="offset_y_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Nonstop@0" type="marker" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer enabled="1" locked="0" class="SvgMarker" pass="0">
+            <prop v="0" k="angle"/>
+            <prop v="255,0,0,255" k="color"/>
+            <prop v="0" k="fixedAspectRatio"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgc29kaXBvZGk6ZG9jbmFtZT0ic3BoZXJlX3NoaW55LnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4wICg0MDM1YTRmYjQ5LCAyMDIwLTA1LTAxKSIKICAgaWQ9InN2ZzgiCiAgIHZlcnNpb249IjEuMSIKICAgdmlld0JveD0iMCAwIDYwLjcxMjY1OCA2MC43MTI2NTgiCiAgIGhlaWdodD0iNjAuNzEyNjU4bW0iCiAgIHdpZHRoPSI2MC43MTI2NThtbSI+CiAgPGRlZnMKICAgICBpZD0iZGVmczIiIC8+CiAgPHNvZGlwb2RpOm5hbWVkdmlldwogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI3IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSIxMDEwIgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTQ1MiIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgaW5rc2NhcGU6ZG9jdW1lbnQtcm90YXRpb249IjAiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ibGF5ZXIxIgogICAgIGlua3NjYXBlOmRvY3VtZW50LXVuaXRzPSJtbSIKICAgICBpbmtzY2FwZTpjeT0iNjIuNDI1MyIKICAgICBpbmtzY2FwZTpjeD0iNjUuMDkxMjc0IgogICAgIGlua3NjYXBlOnpvb209IjEuOTMwMzQ3MyIKICAgICBpbmtzY2FwZTpwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwLjAiCiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBpZD0iYmFzZSIgLz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE1Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZwogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03Ny4xMDc5NTgsLTEyMy4xOTMyOSkiCiAgICAgaWQ9ImxheWVyMSIKICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIgogICAgIGlua3NjYXBlOmxhYmVsPSJMYWdlciAxIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpICNGRjAwMDAiIG9wYWNpdHk9InBhcmFtKGZpbGwtb3BhY2l0eSkgMSIKICAgICAgIGQ9Im0gMTM3LjgyMDYyLDE1My41NDk2MiBhIDMwLjM1NjMyOSwzMC4zNTYzMjkgMCAwIDEgLTMwLjM1NjMzLDMwLjM1NjMzIDMwLjM1NjMyOSwzMC4zNTYzMjkgMCAwIDEgLTMwLjM1NjMzMiwtMzAuMzU2MzMgMzAuMzU2MzI5LDMwLjM1NjMyOSAwIDAgMSAzMC4zNTYzMzIsLTMwLjM1NjMzIDMwLjM1NjMyOSwzMC4zNTYzMjkgMCAwIDEgMzAuMzU2MzMsMzAuMzU2MzMgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZjAwMDA7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuODU7c3Ryb2tlLWxpbmVqb2luOmJldmVsIgogICAgICAgaWQ9InBhdGg4MzMiIC8+CiAgICA8cGF0aAogICAgICAgdHJhbnNmb3JtPSJzY2FsZSgwLjI2NDU4MzMzKSIKICAgICAgIGQ9Im0gNTA2LjkzNTU1LDUyNS40OTIxOSBhIDEyNi4yNTg1NSwxMjguMDg5NiAwIDAgMSAxLjgxODM2LDIxLjY1ODIgMTI2LjI1ODU1LDEyOC4wODk2IDAgMCAxIC0xMjYuMjU5NzcsMTI4LjA4OTg0IDEyNi4yNTg1NSwxMjguMDg5NiAwIDAgMSAtNTguMDAxOTUsLTE0LjMxNjQgMTE0LjczMjU4LDExNC43MzI1OCAwIDAgMCA4MS42NzE4NywzNC4xNTQyOSAxMTQuNzMyNTgsMTE0LjczMjU4IDAgMCAwIDExNC43MzI0MiwtMTE0LjczMjQyIDExNC43MzI1OCwxMTQuNzMyNTggMCAwIDAgLTEzLjk2MDkzLC01NC44NTM1MSB6IgogICAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MC4yNTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6My4yMTI2O3N0cm9rZS1saW5lam9pbjpiZXZlbCIKICAgICAgIGlkPSJjaXJjbGU4MzciIC8+CiAgICA8cGF0aAogICAgICAgdHJhbnNmb3JtPSJzY2FsZSgwLjI2NDU4MzMzKSIKICAgICAgIGQ9Im0gNDA1Ljc4NTE2LDQ5NS4wODIwMyBhIDg1LjI2Mzg1NCw4NS4yNjM4NTQgMCAwIDAgLTQwLjEyMTEsMTAuMjMyNDIgbCA5LjY3NTc4LDExLjE1NjI1IGEgMTY5LjQyNjExLDE2OS40MjYxMSAwIDAgMSAzNy42NzM4MywtMjEuMTEzMjggODUuMjYzODU0LDg1LjI2Mzg1NCAwIDAgMCAtNi44NDk2MSwtMC4yNzUzOSA4NS4yNjM4NTQsODUuMjYzODU0IDAgMCAwIC0wLjM3ODksMCB6IE0gMzUzLjIzMjQyLDUxMy41IGEgODUuMjYzODU0LDg1LjI2Mzg1NCAwIDAgMCAtMzIuMzMyMDMsNjYuODQ1NyA4NS4yNjM4NTQsODUuMjYzODU0IDAgMCAwIDAuMTE3MTksNC40NTUwOCAxNjkuNDI2MTEsMTY5LjQyNjExIDAgMCAxIDQyLjg2MTMzLC01OS4wMjM0NCB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MC43NTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Mi4zODc0NTtzdHJva2UtbGluZWpvaW46YmV2ZWwiCiAgICAgICBpZD0iY2lyY2xlODQyIiAvPgogIDwvZz4KPC9zdmc+Cg==" k="name"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="diameter" k="scale_method"/>
+            <prop v="10" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties" type="Map">
+                  <Option name="fillColor" type="Map">
+                    <Option name="active" type="bool" value="true"/>
+                    <Option name="expression" type="QString" value="with_variable('random',rand(1,6), -- number of colors&#xa;&#x9;case when @random=1 then '#68ee6e'&#xa;&#x9;when @random=2 then '#ee4d3b'&#xa;&#x9;when @random=3 then '#f3dc06'&#xa;&#x9;when @random=4 then '#05f3ef'&#xa;&#x9;when @random=5 then '#157ef3'&#xa;&#x9;when @random=6 then '#c649f3'&#xa;&#x9;end&#xa;)"/>
+                    <Option name="type" type="int" value="3"/>
+                  </Option>
+                </Option>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
