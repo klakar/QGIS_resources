@@ -1,0 +1,102 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol name="Toy Brick 1x1" tags="Fun" clip_to_extent="1" type="marker" force_rhr="0" alpha="1">
+      <layer class="SvgMarker" enabled="1" pass="0" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="244,77,86,255" k="color"/>
+        <prop v="0" k="fixedAspectRatio"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6b3NiPSJodHRwOi8vd3d3Lm9wZW5zd2F0Y2hib29rLm9yZy91cmkvMjAwOS9vc2IiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICBzb2RpcG9kaTpkb2NuYW1lPSJsZWdvIDF4MS5zdmciCiAgIGlua3NjYXBlOnZlcnNpb249IjEuMCAoNDAzNWE0ZmI0OSwgMjAyMC0wNS0wMSkiCiAgIGlkPSJzdmc4IgogICB2ZXJzaW9uPSIxLjEiCiAgIHZpZXdCb3g9IjAgMCA2My45NTQ3NSA0OC43NDA2OTYiCiAgIGhlaWdodD0iNDguNzQwNjk2bW0iCiAgIHdpZHRoPSI2My45NTQ3NW1tIj4KICA8ZGVmcwogICAgIGlkPSJkZWZzMiI+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDkxMiIKICAgICAgIG9zYjpwYWludD0iZ3JhZGllbnQiPgogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDkyNCIKICAgICAgICAgb2Zmc2V0PSIwIgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eTowLjMxMDMyNDc2IiAvPgogICAgICA8c3RvcAogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojODM4MzgzO3N0b3Atb3BhY2l0eTowIgogICAgICAgICBvZmZzZXQ9IjAuNDg1MDc2MDEiCiAgICAgICAgIGlkPSJzdG9wOTY2IiAvPgogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDkyNiIKICAgICAgICAgb2Zmc2V0PSIxIgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwO3N0b3Atb3BhY2l0eTowLjM2NDM4NzI3IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICB5Mj0iNjg0LjA2Njk2IgogICAgICAgeDI9IjQ0Mi41NDkxIgogICAgICAgeTE9IjY4My4xNzE2OSIKICAgICAgIHgxPSIzNTkuNDY2NDkiCiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ5NTgiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQ5MTIiCiAgICAgICBpbmtzY2FwZTpjb2xsZWN0PSJhbHdheXMiIC8+CiAgPC9kZWZzPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIwIgogICAgIGlua3NjYXBlOndpbmRvdy15PSIyNyIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iMjUiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iMTAxMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE0NTIiCiAgICAgaW5rc2NhcGU6c25hcC1nbG9iYWw9ImZhbHNlIgogICAgIGlua3NjYXBlOnNuYXAtc21vb3RoLW5vZGVzPSJ0cnVlIgogICAgIGlua3NjYXBlOnNuYXAtbWlkcG9pbnRzPSJ0cnVlIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTpkb2N1bWVudC1yb3RhdGlvbj0iMCIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJsYXllcjEiCiAgICAgaW5rc2NhcGU6ZG9jdW1lbnQtdW5pdHM9Im1tIgogICAgIGlua3NjYXBlOmN5PSIzMS4xMTgyMTciCiAgICAgaW5rc2NhcGU6Y3g9IjExNy41NTE1NSIKICAgICBpbmtzY2FwZTp6b29tPSIxLjk3OTg5OSIKICAgICBpbmtzY2FwZTpwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwLjAiCiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBpZD0iYmFzZSIgLz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE1Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZwogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03My43MjMxNDcsLTE1Ny4zNTExMikiCiAgICAgaWQ9ImxheWVyMSIKICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIgogICAgIGlua3NjYXBlOmxhYmVsPSJMYWdlciAxIj4KICAgIDxwYXRoIGZpbGw9InBhcmFtKGZpbGwpIiBvcGFjaXR5PSJwYXJhbShmaWxsLW9wYWNpdHkpIiBzdHJva2U9InBhcmFtKG91dGxpbmUpIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIiBzdHJva2Utb3BhY2l0eT0icGFyYW0ob3V0bGluZS1vcGFjaXR5KSIKICAgICAgIGlua3NjYXBlOmxhYmVsPSIjYmxvY2siCiAgICAgICB0cmFuc2Zvcm09InNjYWxlKDAuMjY0NTgzMzMpIgogICAgICAgZD0ibSAzOTkuNDk4MDUsNTk0LjcxMjg5IC0xMjAuODU5MzgsNzQuNjg3NSB2IDM0Ljg0MTggbCAxMjAuODU5MzgsNzQuNjg3NSAxMjAuODU5MzcsLTc0LjY4NzUgdiAtMzQuODQxOCB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmMDAwMDtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWpvaW46YmV2ZWw7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MC41MDE5MDM7cGFpbnQtb3JkZXI6c3Ryb2tlIG1hcmtlcnMgZmlsbCIKICAgICAgIGlkPSJibG9jayIgLz4KICAgIDxwYXRoCiAgICAgICB0cmFuc2Zvcm09InNjYWxlKDAuMjY0NTgzMzMpIgogICAgICAgZD0ibSAzOTkuNDk4MDUsNzQ0LjA4Nzg5IHYgMzQuODQxOCBsIDEyMC44NTkzNywtNzQuNjg3NSB2IC0zNC44NDE4IHoiCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eTowLjI5NjUyOTtzdHJva2Utd2lkdGg6MTQuODU1NjtzdHJva2UtbGluZWpvaW46YmV2ZWw7cGFpbnQtb3JkZXI6c3Ryb2tlIG1hcmtlcnMgZmlsbCIKICAgICAgIGlkPSJyZWN0ODY4IiAvPgogICAgPHBhdGgKICAgICAgIHRyYW5zZm9ybT0ic2NhbGUoMC4yNjQ1ODMzMykiCiAgICAgICBkPSJtIDI3OC42Mzg2Nyw2NjkuNDAwMzkgdiAzNC44NDE4IGwgMTIwLjg1OTM4LDc0LjY4NzUgdiAtMzQuODQxOCB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MC4yOTYzOTI7c3Ryb2tlLXdpZHRoOjE0Ljg1NTY7c3Ryb2tlLWxpbmVqb2luOmJldmVsO3BhaW50LW9yZGVyOnN0cm9rZSBtYXJrZXJzIGZpbGwiCiAgICAgICBpZD0icGF0aDg5MiIgLz4KICAgIDxwYXRoCiAgICAgICB0cmFuc2Zvcm09InNjYWxlKDAuMjY0NTgzMzMpIgogICAgICAgZD0ibSA0NTkuOTI3NzMsNjUwLjA4Nzg5IGEgNjAuNDI5Njg3LDM3LjM0Mzc1MSAwIDAgMSAtNjAuNDI5NjgsMzcuMzQzNzUgNjAuNDI5Njg3LDM3LjM0Mzc1MSAwIDAgMSAtNjAuNDI5NjksLTM3LjE2Nzk3IHYgMTkuMTM2NzIgYSA2MC40Mjk2ODYsMzcuMzQzNzUxIDAgMCAwIDYwLjQyOTY5LDM3LjM0Mzc1IDYwLjQyOTY4NiwzNy4zNDM3NTEgMCAwIDAgNjAuNDI5NjgsLTM3LjM0Mzc1IDYwLjQyOTY4NiwzNy4zNDM3NTEgMCAwIDAgMCwtMC4xNzM4MyB6IgogICAgICAgc3R5bGU9ImZpbGw6dXJsKCNsaW5lYXJHcmFkaWVudDk1OCk7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjE4Ljg5NzY7c3Ryb2tlLWxpbmVqb2luOmJldmVsO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3BhaW50LW9yZGVyOnN0cm9rZSBtYXJrZXJzIGZpbGwiCiAgICAgICBpZD0icGF0aDg5NSIgLz4KICAgIDxlbGxpcHNlIHN0cm9rZT0icGFyYW0ob3V0bGluZSkiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkiIHN0cm9rZS1vcGFjaXR5PSJwYXJhbShvdXRsaW5lLW9wYWNpdHkpIgogICAgICAgc3R5bGU9ImZpbGw6bm9uZTtmaWxsLW9wYWNpdHk6MC4yOTY1Mjk7c3Ryb2tlOiNmZmZmZmY7c3Ryb2tlLXdpZHRoOjAuNTI5O3N0cm9rZS1saW5lam9pbjpiZXZlbDtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utb3BhY2l0eTowLjUwMTkwMztwYWludC1vcmRlcjpzdHJva2UgbWFya2VycyBmaWxsIgogICAgICAgaWQ9InRvcHAiCiAgICAgICBjeD0iMTA1LjcwMDUyIgogICAgICAgY3k9IjE3Mi4wMDI2NyIKICAgICAgIHJ4PSIxNS45ODg2ODgiCiAgICAgICByeT0iOS44ODA1MzQyIiAvPgogIDwvZz4KPC9zdmc+Cg==" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="255,255,255,162" k="outline_color"/>
+        <prop v="0.1" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="10" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Toy Bricks FIl" tags="Fun" clip_to_extent="1" type="fill" force_rhr="0" alpha="1">
+      <layer class="PointPatternFill" enabled="1" pass="0" locked="0">
+        <prop v="5" k="displacement_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_x_map_unit_scale"/>
+        <prop v="MM" k="displacement_x_unit"/>
+        <prop v="0" k="displacement_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_y_map_unit_scale"/>
+        <prop v="MM" k="displacement_y_unit"/>
+        <prop v="10" k="distance_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_x_map_unit_scale"/>
+        <prop v="MM" k="distance_x_unit"/>
+        <prop v="3.1" k="distance_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_y_map_unit_scale"/>
+        <prop v="MM" k="distance_y_unit"/>
+        <prop v="0" k="offset_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_x_map_unit_scale"/>
+        <prop v="MM" k="offset_x_unit"/>
+        <prop v="0" k="offset_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_y_map_unit_scale"/>
+        <prop v="MM" k="offset_y_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Toy Bricks FIl@0" clip_to_extent="1" type="marker" force_rhr="0" alpha="1">
+          <layer class="SvgMarker" enabled="1" pass="0" locked="0">
+            <prop v="0" k="angle"/>
+            <prop v="244,77,86,255" k="color"/>
+            <prop v="0" k="fixedAspectRatio"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6b3NiPSJodHRwOi8vd3d3Lm9wZW5zd2F0Y2hib29rLm9yZy91cmkvMjAwOS9vc2IiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICBzb2RpcG9kaTpkb2NuYW1lPSJsZWdvIGZpbGwgMXgxLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4wICg0MDM1YTRmYjQ5LCAyMDIwLTA1LTAxKSIKICAgaWQ9InN2ZzgiCiAgIHZlcnNpb249IjEuMSIKICAgdmlld0JveD0iMCAwIDYzLjk1NDc1IDM5LjUyMjEzNyIKICAgaGVpZ2h0PSIzOS41MjIxMzdtbSIKICAgd2lkdGg9IjYzLjk1NDc1bW0iPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMyIj4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50OTEyIgogICAgICAgb3NiOnBhaW50PSJncmFkaWVudCI+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9wOTI0IgogICAgICAgICBvZmZzZXQ9IjAiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjAuMzEwMzI0NzYiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiM4MzgzODM7c3RvcC1vcGFjaXR5OjAiCiAgICAgICAgIG9mZnNldD0iMC40ODUwNzYwMSIKICAgICAgICAgaWQ9InN0b3A5NjYiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9wOTI2IgogICAgICAgICBvZmZzZXQ9IjEiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjAuMzY0Mzg3MjciIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50CiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIHkyPSI2ODQuMDY2OTYiCiAgICAgICB4Mj0iNDQyLjU0OTEiCiAgICAgICB5MT0iNjgzLjE3MTY5IgogICAgICAgeDE9IjM1OS40NjY0OSIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDk1OCIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDkxMiIKICAgICAgIGlua3NjYXBlOmNvbGxlY3Q9ImFsd2F5cyIgLz4KICA8L2RlZnM+CiAgPHNvZGlwb2RpOm5hbWVkdmlldwogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI3IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSIxMDEwIgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTQ1MiIKICAgICBpbmtzY2FwZTpzbmFwLWdsb2JhbD0iZmFsc2UiCiAgICAgaW5rc2NhcGU6c25hcC1zbW9vdGgtbm9kZXM9InRydWUiCiAgICAgaW5rc2NhcGU6c25hcC1taWRwb2ludHM9InRydWUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOmRvY3VtZW50LXJvdGF0aW9uPSIwIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9ImxheWVyMSIKICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0ibW0iCiAgICAgaW5rc2NhcGU6Y3k9IjMxLjExODIxNyIKICAgICBpbmtzY2FwZTpjeD0iMTE3LjU1MTU1IgogICAgIGlua3NjYXBlOnpvb209IjEuOTc5ODk5IgogICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIKICAgICBib3JkZXJvcGFjaXR5PSIxLjAiCiAgICAgYm9yZGVyY29sb3I9IiM2NjY2NjYiCiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGlkPSJiYXNlIiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTUiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTczLjcyMzE0NywtMTU3LjM1MTEyKSIKICAgICBpZD0ibGF5ZXIxIgogICAgIGlua3NjYXBlOmdyb3VwbW9kZT0ibGF5ZXIiCiAgICAgaW5rc2NhcGU6bGFiZWw9IkxhZ2VyIDEiPgogICAgPHBhdGggZmlsbD0icGFyYW0oZmlsbCkiIG9wYWNpdHk9InBhcmFtKGZpbGwtb3BhY2l0eSkiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkiIHN0cm9rZS1vcGFjaXR5PSJwYXJhbShvdXRsaW5lLW9wYWNpdHkpIgogICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC4yNjQ1ODMzMywwLDAsMC4yNjQ1ODMzMyw3My43MjMxNDcsMTU3LjM1MTEyKSIKICAgICAgIGQ9Ik0gMTIwLjg1OTM4LDAgMCw3NC42ODc1IDEyMC44NTkzOCwxNDkuMzc1IDI0MS43MTg3NSw3NC42ODc1IFoiCiAgICAgICBpbmtzY2FwZTpsYWJlbD0iI2Jsb2NrIgogICAgICAgc3R5bGU9ImZpbGw6I2ZmMDAwMDtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWpvaW46YmV2ZWw7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MC41MDE5MDM7cGFpbnQtb3JkZXI6c3Ryb2tlIG1hcmtlcnMgZmlsbCIKICAgICAgIGlkPSJibG9jayIgLz4KICAgIDxwYXRoCiAgICAgICB0cmFuc2Zvcm09InNjYWxlKDAuMjY0NTgzMzMpIgogICAgICAgZD0ibSA0NTkuOTI3NzMsNjUwLjA4Nzg5IGEgNjAuNDI5Njg3LDM3LjM0Mzc1MSAwIDAgMSAtNjAuNDI5NjgsMzcuMzQzNzUgNjAuNDI5Njg3LDM3LjM0Mzc1MSAwIDAgMSAtNjAuNDI5NjksLTM3LjE2Nzk3IHYgMTkuMTM2NzIgYSA2MC40Mjk2ODYsMzcuMzQzNzUxIDAgMCAwIDYwLjQyOTY5LDM3LjM0Mzc1IDYwLjQyOTY4NiwzNy4zNDM3NTEgMCAwIDAgNjAuNDI5NjgsLTM3LjM0Mzc1IDYwLjQyOTY4NiwzNy4zNDM3NTEgMCAwIDAgMCwtMC4xNzM4MyB6IgogICAgICAgc3R5bGU9ImZpbGw6dXJsKCNsaW5lYXJHcmFkaWVudDk1OCk7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjE4Ljg5NzY7c3Ryb2tlLWxpbmVqb2luOmJldmVsO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3BhaW50LW9yZGVyOnN0cm9rZSBtYXJrZXJzIGZpbGwiCiAgICAgICBpZD0icGF0aDg5NSIgLz4KICAgIDxlbGxpcHNlICBzdHJva2U9InBhcmFtKG91dGxpbmUpIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIiBzdHJva2Utb3BhY2l0eT0icGFyYW0ob3V0bGluZS1vcGFjaXR5KSIKICAgICAgIHN0eWxlPSJmaWxsOm5vbmU7ZmlsbC1vcGFjaXR5OjAuMjk2NTI5O3N0cm9rZTojZmZmZmZmO3N0cm9rZS13aWR0aDowLjUyOTtzdHJva2UtbGluZWpvaW46YmV2ZWw7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MC41MDE5MDM7cGFpbnQtb3JkZXI6c3Ryb2tlIG1hcmtlcnMgZmlsbCIKICAgICAgIGlkPSJ0b3BwIgogICAgICAgY3g9IjEwNS43MDA1MiIKICAgICAgIGN5PSIxNzIuMDAyNjciCiAgICAgICByeD0iMTUuOTg4Njg4IgogICAgICAgcnk9IjkuODgwNTM0MiIgLz4KICA8L2c+Cjwvc3ZnPgo=" k="name"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="255,255,255,89" k="outline_color"/>
+            <prop v="0.1" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="diameter" k="scale_method"/>
+            <prop v="10" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties" type="Map">
+                  <Option name="fillColor" type="Map">
+                    <Option name="active" value="true" type="bool"/>
+                    <Option name="expression" value="with_variable('color_nr',rand(1,4),&#xa;case&#xa;&#x9;when @color_nr = 1 then '#ee1111'&#xa;&#x9;when @color_nr = 2 then '#11ee11'&#xa;&#x9;when @color_nr = 3 then '#1111ee'&#xa;&#x9;when @color_nr = 4 then '#eeee11'&#xa;end&#xa;)" type="QString"/>
+                    <Option name="type" value="3" type="int"/>
+                  </Option>
+                </Option>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
