@@ -110,3 +110,9 @@ Three overlapping circles using color from fill and outline for two of them and 
 ![Screenshot from 2020-07-16 17-32-20](https://user-images.githubusercontent.com/6375959/87691306-c0116080-c78a-11ea-9412-81734738ac32.png)
 
 A "block" style with slightly organic properties.
+
+#### Mattress ####
+
+![Screenshot from 2020-07-18 11-11-17](https://user-images.githubusercontent.com/6375959/87849271-80ac5680-c8e7-11ea-925e-cdaaf15b912d.png)
+
+A "soft" style for your fills.
