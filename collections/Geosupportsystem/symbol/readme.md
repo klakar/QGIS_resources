@@ -116,3 +116,9 @@ A "block" style with slightly organic properties.
 ![Screenshot from 2020-07-18 11-11-17](https://user-images.githubusercontent.com/6375959/87849271-80ac5680-c8e7-11ea-925e-cdaaf15b912d.png)
 
 A "soft" style for your fills.
+
+#### Toy Bricks ####
+
+![Screenshot from 2020-07-18 11-25-40](https://user-images.githubusercontent.com/6375959/87849507-8145ec80-c8e9-11ea-9835-2f2937fea213.png)
+
+"Bricks" as a diagonal fill style, and the xml also includes a point marker.
