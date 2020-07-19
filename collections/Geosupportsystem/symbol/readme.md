@@ -122,3 +122,9 @@ A "soft" style for your fills.
 ![Screenshot from 2020-07-18 11-25-40](https://user-images.githubusercontent.com/6375959/87849507-8145ec80-c8e9-11ea-9835-2f2937fea213.png)
 
 "Bricks" as a diagonal fill style, and the xml also includes a point marker.
+
+#### Lava ####
+
+![Skärmbild från 2020-07-19 14-09-03](https://user-images.githubusercontent.com/6375959/87874394-c5a8b980-c9c9-11ea-954c-aca8c7fe211f.png)
+
+Lava is a random point fill texture, that can be tweaked to a lot of different styles. Amount of points, size of markers, colors etc.
