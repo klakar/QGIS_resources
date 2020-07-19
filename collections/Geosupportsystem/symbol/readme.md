@@ -128,3 +128,9 @@ A "soft" style for your fills.
 ![Skärmbild från 2020-07-19 14-09-03](https://user-images.githubusercontent.com/6375959/87874394-c5a8b980-c9c9-11ea-954c-aca8c7fe211f.png)
 
 Lava is a random point fill texture, that can be tweaked to a lot of different styles. Amount of points, size of markers, colors etc.
+
+#### 70's Wallpaper ####
+
+![Skärmbild från 2020-07-19 16-19-31](https://user-images.githubusercontent.com/6375959/87877023-22ad6b00-c9dc-11ea-940c-1702e503af77.png)
+
+Play with the colors with this one.
