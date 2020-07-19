@@ -134,3 +134,9 @@ Lava is a random point fill texture, that can be tweaked to a lot of different s
 ![Skärmbild från 2020-07-19 16-19-31](https://user-images.githubusercontent.com/6375959/87877023-22ad6b00-c9dc-11ea-940c-1702e503af77.png)
 
 Play with the colors with this one.
+
+#### Fantasia ####
+
+![Skärmbild från 2020-07-19 16-57-57](https://user-images.githubusercontent.com/6375959/87877942-84240880-c9e1-11ea-92cb-3bf73e55eb65.png)
+
+Color and color opacity makes the most change. Also turn the simple fill background on and off for style variants.
