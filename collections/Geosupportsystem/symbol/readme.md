@@ -129,6 +129,18 @@ A "soft" style for your fills.
 
 Lava is a random point fill texture, that can be tweaked to a lot of different styles. Amount of points, size of markers, colors etc.
 
+#### Gold ####
+
+![Screenshot from 2020-07-20 14-11-20](https://user-images.githubusercontent.com/6375959/87936385-06b8d080-ca93-11ea-9d36-7259239d1290.png)
+
+This is a variation on the lava style, with an added marker layer with "glimmer".
+
+#### Rock Crystal ####
+
+![Screenshot from 2020-07-20 14-09-41](https://user-images.githubusercontent.com/6375959/87936317-ea1c9880-ca92-11ea-9dc7-7d343cb00389.png)
+
+Another variation on the pattern above.
+
 #### 70's Wallpaper ####
 
 ![Skärmbild från 2020-07-19 16-19-31](https://user-images.githubusercontent.com/6375959/87877023-22ad6b00-c9dc-11ea-940c-1702e503af77.png)
