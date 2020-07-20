@@ -56,6 +56,12 @@ Can also be tweaked to work as a "cloth" texture.
 
 Simple version of the cross stitch style.
 
+#### Denim ####
+
+![Screenshot from 2020-07-20 18-11-23](https://user-images.githubusercontent.com/6375959/87960629-deda6480-cab4-11ea-8a9c-3d09b801802c.png)
+
+Using fill color and opacity this fill style can be used for a lot of different backgrounds.
+
 #### Cubes ####
 
 ![Screenshot from 2020-07-15 15-09-48](https://user-images.githubusercontent.com/6375959/87549598-4f951180-c6ae-11ea-8d66-1f663c8a934b.png)
