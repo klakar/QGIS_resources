@@ -139,7 +139,7 @@ This is a variation on the lava style, with an added marker layer with "glimmer"
 
 ![Screenshot from 2020-07-20 14-09-41](https://user-images.githubusercontent.com/6375959/87936317-ea1c9880-ca92-11ea-9dc7-7d343cb00389.png)
 
-Another variation on the pattern above.
+Another variation but based on the Fantasia pattern below.
 
 #### 70's Wallpaper ####
 
