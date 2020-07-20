@@ -140,3 +140,9 @@ Play with the colors with this one.
 ![Skärmbild från 2020-07-19 16-57-57](https://user-images.githubusercontent.com/6375959/87877942-84240880-c9e1-11ea-92cb-3bf73e55eb65.png)
 
 Color and color opacity makes the most change. Also turn the simple fill background on and off for style variants.
+
+#### Inreference ####
+
+![Screenshot from 2020-07-20 13-24-39](https://user-images.githubusercontent.com/6375959/87932817-6bbcf800-ca8c-11ea-9b7d-93974aa3a7f0.png)
+
+Playing with horisontal and vertical distance, colors, line width, marker shape and size. Variations are really endless.
