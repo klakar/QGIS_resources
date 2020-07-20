@@ -1,0 +1,69 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" tags="Art" name="Interference">
+      <layer locked="0" pass="0" class="PointPatternFill" enabled="1">
+        <prop k="displacement_x" v="0"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="7.4"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7.4"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <symbol force_rhr="0" clip_to_extent="1" type="marker" alpha="1" name="@Interference@0">
+          <layer locked="0" pass="0" class="SimpleMarker" enabled="1">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,31"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="208,220,230,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.8"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="14.6"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
