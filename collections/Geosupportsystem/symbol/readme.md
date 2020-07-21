@@ -6,6 +6,8 @@ One option is to use the style url, as shown in the video below.
 
 https://youtu.be/zZW97unRBRw
 
+A large selection of all the styles are available in one single file/url: https://github.com/klakar/QGIS_resources/raw/master/collections/Geosupportsystem/symbol/Selection_styles.xml
+
 ### Style Examples ###
 
 #### Lines ####
