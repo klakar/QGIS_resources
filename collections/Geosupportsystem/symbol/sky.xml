@@ -33,7 +33,7 @@
         <symbol type="marker" alpha="1" clip_to_extent="1" name="@Sky@0" force_rhr="0">
           <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
             <prop k="angle" v="0"/>
-            <prop k="color" v="49,139,229,8"/>
+            <prop k="color" v="14,112,240,64"/>
             <prop k="horizontal_anchor_point" v="1"/>
             <prop k="joinstyle" v="round"/>
             <prop k="name" v="circle"/>
@@ -54,6 +54,11 @@
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
                 <Option type="Map" name="properties">
+                  <Option type="Map" name="fillColor">
+                    <Option type="bool" value="true" name="active"/>
+                    <Option type="QString" value="set_color_part(&#xa;@symbol_color,'alpha', 5)" name="expression"/>
+                    <Option type="int" value="3" name="type"/>
+                  </Option>
                   <Option type="Map" name="size">
                     <Option type="bool" value="true" name="active"/>
                     <Option type="QString" value="rand(10,50)" name="expression"/>
