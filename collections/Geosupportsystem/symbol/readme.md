@@ -14,11 +14,11 @@ https://youtu.be/zZW97unRBRw
 
 Small collection of "artistic" lines.
 
-#### Barb Wire ####
+#### More Lines ####
 
-![Screenshot from 2020-07-21 15-34-02](https://user-images.githubusercontent.com/6375959/88061423-c24b3480-cb67-11ea-800f-ba42709f4a26.png)
+![Screenshot from 2020-07-21 16-31-57](https://user-images.githubusercontent.com/6375959/88067965-e3178800-cb6f-11ea-8bb5-5f21785991ff.png)
 
-Line style for those "tough" border crossings.
+Bad Sutures, Chain, Barb Wire and Zipper.
 
 #### Bloated ####
 
