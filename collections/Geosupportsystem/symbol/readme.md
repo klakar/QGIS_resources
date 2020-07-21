@@ -14,6 +14,12 @@ https://youtu.be/zZW97unRBRw
 
 Small collection of "artistic" lines.
 
+#### Barb Wire ####
+
+![Screenshot from 2020-07-21 15-34-02](https://user-images.githubusercontent.com/6375959/88061423-c24b3480-cb67-11ea-800f-ba42709f4a26.png)
+
+Line style for those "tough" border crossings.
+
 #### Bloated ####
 
 ![Skärmbild från 2020-07-07 20-44-42](https://user-images.githubusercontent.com/6375959/86917805-01b86080-c126-11ea-839f-7add1fd30b81.png)
