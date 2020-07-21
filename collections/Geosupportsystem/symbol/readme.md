@@ -182,3 +182,5 @@ Playing with horisontal and vertical distance, colors, line width, marker shape 
 ![Screenshot from 2020-07-21 17-08-45](https://user-images.githubusercontent.com/6375959/88072218-10b30000-cb75-11ea-9eb9-66d2909badef.png)
 
 This style becomes really interesting when you change the symbol color.
+
+![Screenshot from 2020-07-21 17-07-08](https://user-images.githubusercontent.com/6375959/88072379-41933500-cb75-11ea-8a97-4fc74e5f1b97.png)
