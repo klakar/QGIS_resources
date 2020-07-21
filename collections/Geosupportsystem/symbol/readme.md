@@ -176,3 +176,9 @@ Color and color opacity makes the most change. Also turn the simple fill backgro
 ![Screenshot from 2020-07-20 13-24-39](https://user-images.githubusercontent.com/6375959/87932817-6bbcf800-ca8c-11ea-9b7d-93974aa3a7f0.png)
 
 Playing with horisontal and vertical distance, colors, line width, marker shape and size. Variations are really endless.
+
+#### Sky ####
+
+![Screenshot from 2020-07-21 17-08-45](https://user-images.githubusercontent.com/6375959/88072218-10b30000-cb75-11ea-9eb9-66d2909badef.png)
+
+This style becomes really interesting when you change the symbol color.
