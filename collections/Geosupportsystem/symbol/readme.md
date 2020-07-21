@@ -8,6 +8,12 @@ https://youtu.be/zZW97unRBRw
 
 ### Style Examples ###
 
+#### Lines ####
+
+![Screenshot from 2020-07-21 10-02-01](https://user-images.githubusercontent.com/6375959/88029186-f1e34800-cb39-11ea-89d0-2360094579e8.png)
+
+Small collection of "artistic" lines.
+
 #### Bloated ####
 
 ![Skärmbild från 2020-07-07 20-44-42](https://user-images.githubusercontent.com/6375959/86917805-01b86080-c126-11ea-839f-7add1fd30b81.png)
