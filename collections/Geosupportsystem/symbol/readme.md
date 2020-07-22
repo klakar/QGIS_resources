@@ -188,3 +188,9 @@ Playing with horisontal and vertical distance, colors, line width, marker shape 
 This style becomes really interesting when you change the symbol color.
 
 ![Screenshot from 2020-07-21 17-07-08](https://user-images.githubusercontent.com/6375959/88072379-41933500-cb75-11ea-8a97-4fc74e5f1b97.png)
+
+#### Edge Bleed ####
+
+![Screenshot from 2020-07-22 15-57-00](https://user-images.githubusercontent.com/6375959/88185473-436ffd80-cc34-11ea-88c0-cd6bca01ec4c.png)
+
+Random style that uses blending modes. Use colors with very little opacity for the displayed effect.
