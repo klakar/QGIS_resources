@@ -8,6 +8,8 @@ https://youtu.be/zZW97unRBRw
 
 A large selection of all the styles are available in one single file/url: https://github.com/klakar/QGIS_resources/raw/master/collections/Geosupportsystem/symbol/Selection_styles.xml
 
+![Skärmbild från 2020-07-22 09-04-56](https://user-images.githubusercontent.com/6375959/88145302-844b2080-cbfa-11ea-918b-20d94df4dc18.png)
+
 ### Style Examples ###
 
 #### Lines ####
