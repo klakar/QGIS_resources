@@ -1,0 +1,77 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol tags="Random" force_rhr="0" alpha="1" type="fill" name="Edge Bleed" clip_to_extent="1">
+      <layer pass="0" class="RandomMarkerFill" enabled="1" locked="0">
+        <prop k="clip_points" v="1"/>
+        <prop k="count_method" v="1"/>
+        <prop k="density_area" v="250"/>
+        <prop k="density_area_unit" v="MM"/>
+        <prop k="density_area_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="point_count" v="19"/>
+        <prop k="seed" v="401633083"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <symbol force_rhr="0" alpha="1" type="marker" name="@Edge Bleed@0" clip_to_extent="1">
+          <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="186,80,68,82"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="name" v="diamond"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="191,15,26,189"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="3"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="angle">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="rand(0,360)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="fillColor">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="set_color_part(&#xa;@symbol_color,&#xa;'value',&#xa;80)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="outlineColor">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="@symbol_color" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="size">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="rand(5,30)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                </Option>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
