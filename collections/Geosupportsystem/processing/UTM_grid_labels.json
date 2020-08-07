@@ -1,0 +1,14 @@
+{
+    "author": "Klas Karlsson",
+    "exported_at": "2020-08-06T19:49:12",
+    "expressions": [
+        {
+            "description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Fira Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Use as custom grid label expression with UTM grids.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">It will print kilometer numbers, and for even 10km lines also </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">the value for the 100'000 km square.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Lato';\">Example: ⁴30</span></p></body></html>",
+            "expression": "if(@grid_number%10000, -- If it is not an even 10 km line\nleft(right(@grid_number,5),2), -- Add standard km label\nwith_variable('index', -- Define a variable for index numbers\narray('⁰','¹','²','³','⁴','⁵','⁶','⁷','⁸','⁹'),\n\nif(@grid_number>999999, -- If the grid has more than 6 digits add index number for the 1'000'000 value\narray_get(@index, left(@grid_number,1)),'')\n|| -- And no matter what add index number for the 100'000 value\narray_get(@index, left(right(@grid_number,6),1))\n)\n|| -- Then add the km label with standard format\nleft(right(@grid_number,5),2)\n)\n",
+            "group": "user",
+            "name": "UTM Grid Labels",
+            "type": "expression"
+        }
+    ],
+    "qgis_version": "3.14.1-Pi"
+}
