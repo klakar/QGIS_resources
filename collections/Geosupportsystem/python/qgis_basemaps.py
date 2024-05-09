@@ -26,6 +26,7 @@ For Esri basemaps you will need a valid ArcGIS online subscription to use the ma
 # Sources
 sources = []
 sources.append(["connections-xyz","Google Maps","","","","https://mt1.google.com/vt/lyrs=m&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D","","19","0"])
+sources.append(["connections-xyz","Google Traffic","","","","https://mt1.google.com/vt?lyrs=h@159000000,traffic|seconds_into_week:-1&style=3&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D","","19","0"])
 sources.append(["connections-xyz","Google Satellite", "", "", "", "https://mt1.google.com/vt/lyrs=s&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D", "", "19", "0"])
 sources.append(["connections-xyz","Google Terrain", "", "", "", "https://mt1.google.com/vt/lyrs=t&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D", "", "19", "0"])
 sources.append(["connections-xyz","Google Terrain Hybrid", "", "", "", "https://mt1.google.com/vt/lyrs=p&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D", "", "19", "0"])
