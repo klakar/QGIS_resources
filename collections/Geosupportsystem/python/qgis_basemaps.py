@@ -13,7 +13,7 @@ You can add or remove sources from the sources section of the code.
 Script by Klas Karlsson
 Sources from https://qms.nextgis.com/
 
-Some services require you to supply your own API key for the services to work.
+Some services may require you to supply your own API key for the services to work.
 
 Licence GPL-3
 
